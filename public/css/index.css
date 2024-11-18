@@ -33,7 +33,7 @@ header nav a {
 
 /* Body adjustment to avoid content being hidden under the fixed header */
 body {
-    margin-top: 80px;  /* Adjust the margin-top to account for header height */
+    margin-top: 100px;  /* Adjust the margin-top to account for header height */
 }
 
 
