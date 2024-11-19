@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Data Visualisation">
+    <meta name="keywords" content="HTML, CSS, D3">
+    <meta name="author" content="Wong Zing Ung">
+
+    <title>Assignment 2</title>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="../public/css/index.css">
+    <script src="" defer></script>
+
+    <style>
+        /* Add only the background style here */
+        .hero {
+            background: url('PIC/hero-background.jpg') no-repeat center center/cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mapContainer"></div>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="PIC/logo.jpg" alt="Logo" style="height: 40px;">
+            </a>
+        </div>
+        <nav>
+            <a href="data.html">Data</a>
+            <a href="analysis.html">Analysis</a>
+            <a href="insights.html">Insights</a>
+        </nav>
+    </header>    
+
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Air Quality</h1>
+        <p>Dive into the world of air quality like never before!</p>
+        <button class="explore-button">Explore Now</button>
+    </section>
+
+    <!-- Visualize Section -->
+    <section class="visualize">
+        <h2>Visualize Your Air!</h2>
+        <div class="image-card">
+            <img src="PIC/pollution.jpg" alt="Pollution">
+        </div>
+        <div class="image-card">
+            <img src="PIC/emissions.jpg" alt="Emissions">
+        </div>
+        <!-- Add more cards as needed -->
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Air Quality FAQs</h2>
+        <details>
+            <summary>What is PM2.5?</summary>
+            <p>PM2.5 refers to fine particulate matter that can pose serious health risks...</p>
+        </details>
+        <details>
+            <summary>How does air quality affect health?</summary>
+            <p>Air quality impacts respiratory health, increases risks of asthma, etc...</p>
+        </details>
+        <!-- Add more FAQs as needed -->
+    </section>
+
+    <br><br>
+    <footer style="color:grey">
+        COS30045 Data Visualisation <br>
+        Semester 2 2024
+    </footer>
+</body>
+</html>

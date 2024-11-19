@@ -1,0 +1,157 @@
+/* General Styles */
+/* Header */
+header {
+    position: fixed;  /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex; /* Align nav items in a row */
+    justify-content: center; /* Align navigation links to the left */
+    flex-grow: 1; /* Allow the nav to take remaining space */
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+/* Body adjustment to avoid content being hidden under the fixed header */
+body {
+    margin-top: 100px;  /* Adjust the margin-top to account for header height */
+}
+
+
+
+header .cta-button {
+    background-color: #6ac06b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.hero .explore-button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+/* Visualize Section */
+.visualize {
+    padding: 40px;
+    text-align: center;
+    background-color: #f2f2f2; /* Fallback color */
+    color: #333;
+}
+
+
+.visualize h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.visualize .image-card {
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.visualize .image-card:hover {
+    transform: scale(1.05);
+}
+
+.visualize .image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Visualization Containers */
+.visualization-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.visualization-box {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background-color: #e6e6e6; /* Light gray background for visibility */
+    border: 2px dashed #ccc; /* Dashed border to indicate placeholder */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 40px;
+    background-color: #ffe6e6;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.faq details {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.faq summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq p {
+    margin: 5px 0 0;
+}
