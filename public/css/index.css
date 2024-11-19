@@ -36,8 +36,6 @@ body {
     margin-top: 100px;  /* Adjust the margin-top to account for header height */
 }
 
-
-
 header .cta-button {
     background-color: #6ac06b;
     color: white;
@@ -57,7 +55,6 @@ header .cta-button {
     color: white;
     text-align: center;
 }
-
 
 .hero h1 {
     font-size: 3em;
@@ -92,7 +89,7 @@ header .cta-button {
 
 .visualize .image-card {
     display: inline-block;
-    width: 600px;
+    width: 575px;
     height: 400px;
     margin: 10px;
     overflow: hidden;
@@ -154,4 +151,40 @@ header .cta-button {
 
 .faq p {
     margin: 5px 0 0;
+}
+
+.aboutUsBody {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.aboutUsContainer {
+    max-width: 900px;
+    padding: 40px 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for aesthetics */
+    border-radius: 10px; /* Rounded corners */
+    text-align: justify; /* Justify the text */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+.authors {
+    margin-bottom: 20px;
+}
+
+.author-tag {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4a4a4a; /* Darker grey */
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
 }
