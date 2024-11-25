@@ -1,17 +1,25 @@
 /* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
 /* Header */
 header {
-    position: fixed;  /* Fix the header at the top */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between; /* Space between logo and nav */
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #f9f9f9;
-    z-index: 1000; /* Ensure it stays on top */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
@@ -20,21 +28,15 @@ header .logo {
 }
 
 header nav {
-    display: flex; /* Align nav items in a row */
-    justify-content: center; /* Align navigation links to the left */
-    flex-grow: 1; /* Allow the nav to take remaining space */
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 header nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #555;
-}
-
-/* Body adjustment to avoid content being hidden under the fixed header */
-body {
-    margin-top: 100px;  /* Adjust the margin-top to account for header height */
-    margin-bottom: 100px;
 }
 
 header .cta-button {
@@ -48,7 +50,8 @@ header .cta-button {
 
 /* Hero Section */
 .hero {
-    height: 60vh;
+    background: url('../PIC/hero-background.jpg') no-repeat center center/cover;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,10 +64,6 @@ header .cta-button {
     font-size: 3em;
 }
 
-.hero p {
-    margin: 10px 0;
-}
-
 .hero .explore-button {
     background-color: transparent;
     border: 2px solid white;
@@ -72,17 +71,16 @@ header .cta-button {
     color: white;
     cursor: pointer;
     border-radius: 25px;
-    text-decoration: none; /* Removes underline */
-    transition: all 0.3s ease; /* Adds smooth transition */
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .hero .explore-button:hover {
-    background-color: white; /* Change background color on hover */
-    color: black; /* Change text color on hover */
-    transform: scale(1.1); /* Slightly enlarges the button */
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
 }
 
-/* Visualize Section */
 .visualize {
     padding: 40px;
     text-align: center;
@@ -98,7 +96,7 @@ header .cta-button {
 
 .visualize .image-card {
     display: inline-block;
-    width: 575px;
+    width: 500px;
     height: 400px;
     margin: 10px;
     overflow: hidden;
@@ -137,7 +135,8 @@ header .cta-button {
 /* FAQ Section */
 .faq {
     padding: 40px;
-    background-color: #ffe6e6;
+    background-color: #e0effb;
+    ;
 }
 
 .faq h2 {
@@ -158,230 +157,12 @@ header .cta-button {
     cursor: pointer;
 }
 
-.faq p {
-    margin: 5px 0 0;
-}
-
-.aboutUsBody {
-    margin-top: 100px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: justify;
-    margin-bottom: 100px;
-}
-
-.aboutUsMain {
-    margin-top: 150px; /* Account for fixed header */
-    padding: 40px 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 110px;
-}
-
-.aboutUsContent h1, .aboutUsContent h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #6ac06b;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-/* Optional: Center the text for author tags */
-.aboutUsAuthors {
-    text-align: center;
-}
-
-.aboutUsAuthorTag {
-    font-weight: bold;
-}
-
-/* Boxed sections */
-.aboutUsContent section {
-    background: #f9f9f9;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Decorative dividers */
-.aboutUsContent h2::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #6ac06b;
-    margin: 10px auto;
-}
-
-ul {
-    list-style: none; /* Remove default bullets */
-    padding-left: 0; /* Remove default padding */
-}
-
-ul li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #333; /* Text color */
-}
-
-ul li::before {
-    content: "✔"; /* Only show the checkmark */
-    position: absolute;
-    left: 0;
-    color: #6ac06b; /* Tick color */
-    font-size: 18px; /* Size of the tick */
-    font-weight: bold;
-}
-
-
-.aboutUsAuthorTag:hover {
-    background-color: #f2f2f2;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
+/* Footer */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     background: #6ac06b;
     color: white;
     text-align: center;
     padding: 10px 0;
-    font-size: 14px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
 }
-
-.data-main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.data-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.data-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.data-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.data-card h3 {
-    margin: 0 0 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #0056b3;
-}
-
-.data-card p {
-    font-size: 14px;
-}
-
-.data-processed-datasets {
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-}
-
-.data-section-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.data-processed-datasets p {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.data-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.data-list li {
-    margin-bottom: 10px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    color: #333;
-}
-
-.data-list li::before {
-    content: "✔";
-    color: #28a745;
-    margin-right: 10px;
-    font-size: 16px;
-}
-
-.description {
-    margin: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .description h2, .description h3 {
-    color: #2c3e50;
-  }
-  
-  .description p, .description ul {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  
-  /* Header description styles */
-.header-description {
-    text-align: center;
-    margin: 20px auto;
-    max-width: 800px;
-}
-
-.header-description h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #222;
-}
-
-.header-description p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: #555;
-}
-
-.header-description strong {
-    color: #222;
-}
-  

@@ -1,16 +1,7 @@
 /* test.css */
-
-body {
-    margin: 0;
-    padding: 10px ;
-    display: block;
-    margin-bottom: 100px;
-}
-
 #choropleth{
     display: flex;
     justify-content:space-between;
-    margin: 15px;
     padding: 10px 20px;
     background-color: #f3f3f3;
     border: 1px solid #ddd;
@@ -20,7 +11,7 @@ body {
 /* Choropleth to hold both map and control panel with fixed dimensions */
 #choropleth-map {
     width: 600px;
-    height: 450px;
+    height: 500px;
     background-color: #e0e0e0;
     border: 1px solid #ddd;
 }
@@ -29,7 +20,7 @@ body {
 #choropleth-result {
     display: flex;
     flex-direction: column;
-    width: 680px;
+    width: 500px;
     justify-content: flex-start;
     padding: 10px;
     background-color: #e0e0e0;
@@ -50,7 +41,7 @@ body {
 }
 
 #result-header input[type="range"] {
-    width: 550px;
+    width: 350px;
     text-align: center;
     font-size: 1em;
     background-color: #fff;
@@ -73,11 +64,11 @@ body {
 }
 
 #left-data-section .data-section{
-    width: 300px;
+    width: 210px;
 }
 
 #right-data-section .data-section{
-    width: 270px;
+    width: 210px;
 }
 
 #left-data-section,
@@ -168,7 +159,7 @@ body {
     border-top: 1px solid #ddd;
     box-sizing: border-box;
     width: 600px;
-    height: 50px;
+    height: 100px;
 }
 
 /* Make control items display in a row */
