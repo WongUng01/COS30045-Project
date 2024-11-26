@@ -37,6 +37,7 @@ header nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #555;
+    font-size: 1.3em;
 }
 
 header .cta-button {
@@ -61,6 +62,7 @@ header .cta-button {
 }
 
 .hero h1 {
+    margin-top: 110px;
     font-size: 3em;
 }
 

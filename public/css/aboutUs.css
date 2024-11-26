@@ -32,6 +32,9 @@
 }
 
 .aboutUsAuthors {
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center the names horizontally */
+    gap: 30px; /* Add space between the names */
     text-align: center;
 }
 
