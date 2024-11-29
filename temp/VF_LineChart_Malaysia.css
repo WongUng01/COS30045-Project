@@ -1,0 +1,96 @@
+#Malaysia-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 500px;
+}
+
+#MalaysiaLineChart_Tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none; /* Prevent interaction with the tooltip */
+    opacity: 0; /* Initially hidden */
+    width: 350px; /* Flexible width */
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333; /* Default text color */
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-body {
+    padding: 10px;
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-row {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc; /* Dotted line */
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-row span {
+    flex: 0 0 auto; /* Prevent spans from growing or shrinking */
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-row span:nth-child(1) {
+    width: 12px; /* Fixed width for the colored square */
+    height: 12px; /* Fixed height for the colored square */
+    margin-right: 5px; /* Space between square and text */
+}
+
+#MalaysiaLineChart_Tooltip .tooltip-row span:nth-child(2) {
+    margin-right: auto; /* Push the last span to the right */
+}
+
+
+
+#Malaysia-Desc{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#Malaysia-Desc h3{
+    text-align: center;
+}
+
+#Chart-Legend {
+    margin-top: 10px;
+    width: 800px;
+    text-align: center;
+}
+
+.legend-item span {
+    vertical-align: middle;
+}
+
+.legend-item {
+    margin: 0 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}

@@ -66,7 +66,7 @@ function init() {
                 }
         
                 // Map Series Code to the corresponding field in worldBankData
-                switch (d['Series Code']) {
+                switch (d['SeriesCode']) {
                     case 'EN.GHG.CO2.TR.MT.CE.AR5':
                         worldBankData[key].co2transport = d.Value;
                         break;

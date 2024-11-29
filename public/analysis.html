@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="../public/css/analysis.css">
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="js/V1_Choropleth.js" defer></script>
-    <link rel="stylesheet" href="css/V1_Choropleth.css"> <!-- Link to the CSS file -->
 </head>
 
-<body>
+<body class = "analysis">
     <header>
-        <div class="logo">
+        <div class="index-logo">
             <a href="index.html">
                 <img src="PIC/logo.jpg" alt="Logo" style="height: 40px;">
+                <p>Home</p>
             </a>
         </div>
         <nav>
@@ -31,27 +31,25 @@
 
     <main>
         <section class="content">
-            <br>
-            <br>
-            <br>
-            <br>
+
             <div class="header-description">
                 <h1>Interactive Dashboard: Air Quality Analysis</h1>
                 <p>
-                    Dive into a comprehensive analysis of global air quality trends. This interactive dashboard allows you to explore 
-                    pollution levels, health impacts, economic metrics, and energy consumption across different countries and years.
+                    This interactive dashboard provides an in-depth view of Malaysia’s journey in tackling <b>PM2.5 pollution</b>. As the country transitions from a <i>developing</i> to a <i>developed economy</i>, 
+                    the data highlights critical trends in <b>pollution levels</b>, <b>public health impacts</b>, and <b>economic progress</b>.
                 </p>
                 <p>
                     <strong>Key Features:</strong> 
-                    Adjust the year slider to view data over time, search for specific countries, or zoom into regions for detailed insights. 
-                    The map is color-coded to reflect PM2.5 pollution levels, while the sidebar displays relevant metrics for each selected country.
+                    Use the <i>year slider</i> to explore historical trends, search for specific countries, or zoom into regions for detailed analysis. 
+                    The <b>color-coded map</b> reflects varying levels of <b>PM2.5 pollution</b>, while the <i>sidebar</i> displays real-time metrics for selected countries, covering pollution, health, 
+                    economy, and energy consumption.
                 </p>
             </div>
-            <br>
-            <br>             
+            
+        
             <!-- Blank Containers for Visualizations -->
-            <div>
-                <h2>World Map</h2>
+            <div id="choropleth-box">
+                <h2>Choropleth</h2>
                 <div id = "choropleth">
                     <!-- Choropleth to hold both map and control panel -->
                     <div id="choropleth-map">
@@ -156,41 +154,33 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
+
             <div class="description">
                 <h2>About the Visualization</h2>
                 <p>
-                  This interactive dashboard visualizes air quality data across different regions, focusing on pollution levels, health impacts, and associated economic and energy metrics.
+                    This interactive dashboard visualizes air quality data across <i>global regions</i>, focusing on <b>pollution levels</b>, <b>health impacts</b>, and <b>economic trends</b>. 
+                    Users can explore how <i>environmental and health metrics</i> vary between countries and over time.
                 </p>
                 <h3>World Map</h3>
                 <p>
-                  A choropleth map displays the air quality index for various countries, color-coded by pollution levels (low, moderate, unhealthy, or hazardous). Users can navigate through different years, zoom in, and search for specific countries to analyze trends over time.
+                    The choropleth map showcases <b>PM2.5 levels</b> across various countries, categorized into <i>low</i>, <i>moderate</i>, <i>unhealthy</i>, and <i>hazardous zones</i>. 
+                    Users can adjust the year slider, zoom in on specific areas, and search for countries to gain insights into historical and regional trends.
                 </p>
-                <h3>Country-Specific Details</h3>
+                <h3>Country-Specific Insights</h3>
                 <ul>
-                  <li>
-                    <strong>Pollution:</strong> PM2.5 exposure levels and CO₂ emissions from transport, industrial processes, and combustion.
-                  </li>
-                  <li>
-                    <strong>Health:</strong> Key health indicators such as life expectancy and tuberculosis incidence rates.
-                  </li>
-                  <li>
-                    <strong>Economy:</strong> Metrics like GDP per capita and economic growth trends.
-                  </li>
-                  <li>
-                    <strong>Energy:</strong> Renewable energy consumption and fossil fuel usage.
-                  </li>
+                    <li><strong>Pollution:</strong> Analyze <i>PM2.5 exposure</i> and <i>CO₂ emissions</i> from various sources, including transport and industrial activities.</li>
+                    <li><strong>Health:</strong> Track key health metrics like <i>life expectancy</i> and <i>tuberculosis incidence</i> to understand the population's well-being.</li>
+                    <li><strong>Economy:</strong> Study <b>GDP per capita</b> and <b>economic growth</b> trends, revealing the interplay between environmental sustainability and economic development.</li>
+                    <li><strong>Energy:</strong> Evaluate the country's <b>energy transition</b>, from reliance on <i>fossil fuels</i> to the adoption of <i>renewable energy</i>.</li>
                 </ul>
                 <p>
-                  This visualization provides a comprehensive overview of air quality and its broader implications, enabling users to explore trends and make data-driven insights.
+                    By integrating multiple dimensions, this dashboard equips users to uncover <b>data-driven insights</b> and evaluate how <i>environmental challenges</i> impact broader societal outcomes.
                 </p>
-              </div>
+            </div>
+            
         </section>
     </main>
-    <br>
-    <br>
-    <br>
+
 </body>
 <footer>© 2024 Data Visualization Project. All rights reserved.</footer>
 </html>

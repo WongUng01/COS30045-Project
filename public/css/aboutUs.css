@@ -14,7 +14,7 @@
 
 .aboutUsMain {
     margin: 150px auto 110px auto;
-    padding: 40px 20px;
+    padding: 20px 20px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -31,14 +31,24 @@
     letter-spacing: 1px;
 }
 
-.aboutUsAuthors {
-    display: flex; /* Arrange items in a row */
-    justify-content: center; /* Center the names horizontally */
-    gap: 30px; /* Add space between the names */
-    text-align: center;
+.aboutUsContent h2{
+    margin-top: 5px;
 }
 
-.aboutUsAuthorTag {
+.aboutUsAuthors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aboutUsAuthorTag  img{
+    width: 300px;
+    height: 350px;
+}
+
+.aboutUsAuthorTag p{
+    text-align: center;
     font-weight: bold;
 }
 
@@ -48,6 +58,14 @@
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aboutUsContent p{
+    padding: 0 50px;
+}
+
+.aboutUsContent ul{
+    padding: 0 80px;
 }
 
 .aboutUsContent h2::after {

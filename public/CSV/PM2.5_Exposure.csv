@@ -1,4 +1,4 @@
-Reference area,Unit of measure,ISO,ISO.1,TIME_PERIOD,OBS_VALUE
+Reference area,Unit of measure,ISO,Country,TIME_PERIOD,OBS_VALUE
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2000,20.07
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2001,19.83
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2002,19.71
@@ -17,7 +17,7 @@ Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2014,15.92
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2015,16.72
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2016,14.32
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2017,14.97
-Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2018,15.10
+Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2018,15.1
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2019,14.88
 Cyprus,Microgrammes per cubic metre,CYP,Cyprus,2020,13.41
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2000,37.05
@@ -25,7 +25,7 @@ Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2002,40.31
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2003,43.38
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2004,38.37
-Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2005,39.20
+Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2005,39.2
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2006,40.77
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2007,33.39
 Bosnia and Herzegovina,Microgrammes per cubic metre,BIH,Bosnia and Herzegovina,2008,33.37
@@ -50,16 +50,16 @@ Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democra
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2006,40.33
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2007,39.59
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2008,39.69
-Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2009,43.00
+Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2009,43
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2010,35.38
-Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2011,38.40
+Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2011,38.4
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2012,37.05
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2013,45.36
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2014,43.49
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2015,42.03
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2016,38.16
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2017,38.72
-Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2018,33.80
+Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2018,33.8
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2019,30.77
 Democratic People’s Republic of Korea,Microgrammes per cubic metre,PRK,Democratic People’s Republic of Korea,2020,29.59
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2000,17.22
@@ -70,19 +70,19 @@ Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2004,15.71
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2005,15.43
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2006,16.54
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2007,16.97
-Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2008,17.50
-Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2009,18.90
+Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2008,17.5
+Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2009,18.9
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2010,19.79
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2011,24.96
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2012,24.97
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2013,24.58
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2014,23.25
-Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2015,22.10
+Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2015,22.1
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2016,21.86
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2017,20.36
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2018,20.66
 Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2019,19.09
-Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2020,18.40
+Turkmenistan,Microgrammes per cubic metre,TKM,Turkmenistan,2020,18.4
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2000,28.04
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2001,26.96
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2002,27.71
@@ -90,7 +90,7 @@ Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2003,27.37
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2004,28.85
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2005,28.47
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2006,28.66
-Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2007,28.90
+Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2007,28.9
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2008,28.62
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2009,26.78
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2010,23.98
@@ -105,7 +105,7 @@ Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2018,22.16
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2019,22.07
 Cambodia,Microgrammes per cubic metre,KHM,Cambodia,2020,23.26
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2000,20.83
-Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2001,20.90
+Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2001,20.9
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2002,22.45
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2003,18.71
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2004,17.85
@@ -113,7 +113,7 @@ Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2005,16.07
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2006,16.03
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2007,14.02
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2008,14.15
-Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2009,15.10
+Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2009,15.1
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2010,17.11
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2011,13.57
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2012,13.45
@@ -121,7 +121,7 @@ Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2013,13.99
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2014,14.34
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2015,12.47
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2016,12.21
-Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2017,11.70
+Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2017,11.7
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2018,12.27
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2019,11.16
 Moscow Oblast,Microgrammes per cubic metre,RUS,Russia,2020,10.39
@@ -132,7 +132,7 @@ North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2003,45.45
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2004,40.22
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2005,40.71
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2006,41.73
-North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2007,35.50
+North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2007,35.5
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2008,35.75
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2009,36.13
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2010,36.61
@@ -144,7 +144,7 @@ North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2015,34.04
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2016,32.07
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2017,32.48
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2018,33.06
-North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2019,27.60
+North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2019,27.6
 North Macedonia,Microgrammes per cubic metre,MKD,North Macedonia,2020,27.86
 Israel,Microgrammes per cubic metre,ISR,Israel,2000,24.84
 Israel,Microgrammes per cubic metre,ISR,Israel,2001,24.28
@@ -158,7 +158,7 @@ Israel,Microgrammes per cubic metre,ISR,Israel,2008,24.06
 Israel,Microgrammes per cubic metre,ISR,Israel,2009,23.55
 Israel,Microgrammes per cubic metre,ISR,Israel,2010,24.19
 Israel,Microgrammes per cubic metre,ISR,Israel,2011,24.05
-Israel,Microgrammes per cubic metre,ISR,Israel,2012,21.80
+Israel,Microgrammes per cubic metre,ISR,Israel,2012,21.8
 Israel,Microgrammes per cubic metre,ISR,Israel,2013,22.34
 Israel,Microgrammes per cubic metre,ISR,Israel,2014,21.03
 Israel,Microgrammes per cubic metre,ISR,Israel,2015,21.95
@@ -179,7 +179,7 @@ Latvia,Microgrammes per cubic metre,LVA,Latvia,2008,15.79
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2009,16.24
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2010,18.12
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2011,15.88
-Latvia,Microgrammes per cubic metre,LVA,Latvia,2012,15.30
+Latvia,Microgrammes per cubic metre,LVA,Latvia,2012,15.3
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2013,15.76
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2014,16.45
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2015,13.98
@@ -192,7 +192,7 @@ Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2000,25.22
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2001,25.88
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2002,25.69
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2003,26.35
-Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2004,26.60
+Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2004,26.6
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2005,27.19
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2006,26.65
 Hong Kong (China),Microgrammes per cubic metre,HKG,Hong Kong (China),2007,26.86
@@ -213,19 +213,19 @@ Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2000,14.67
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2001,15.41
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2002,14.86
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2003,14.84
-Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2004,12.70
+Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2004,12.7
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2005,13.09
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2006,13.88
-Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2007,12.10
+Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2007,12.1
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2008,11.85
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2009,13.29
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2010,11.97
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2011,12.86
-Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2012,12.30
+Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2012,12.3
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2013,12.03
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2014,10.88
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2015,11.94
-Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2016,11.60
+Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2016,11.6
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2017,10.48
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2018,10.81
 Liechtenstein,Microgrammes per cubic metre,LIE,Liechtenstein,2019,10.06
@@ -255,7 +255,7 @@ Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2000,55.
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2001,60.73
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2002,61.22
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2003,64.25
-Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2004,59.70
+Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2004,59.7
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2005,61.64
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2006,65.71
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2007,64.04
@@ -273,11 +273,11 @@ Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2018,51.
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2019,47.16
 Beijing,Microgrammes per cubic metre,CHN,China (People’s Republic of),2020,46.04
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2000,25.09
-Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2001,24.80
+Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2001,24.8
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2002,27.36
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2003,28.97
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2004,25.16
-Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2005,25.70
+Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2005,25.7
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2006,26.98
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2007,22.11
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2008,22.74
@@ -293,7 +293,7 @@ Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2017,20.09
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2018,19.79
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2019,17.61
 Bulgaria,Microgrammes per cubic metre,BGR,Bulgaria,2020,17.21
-Viet Nam,Microgrammes per cubic metre,VNM,Viet Nam,2000,25.70
+Viet Nam,Microgrammes per cubic metre,VNM,Viet Nam,2000,25.7
 Viet Nam,Microgrammes per cubic metre,VNM,Viet Nam,2001,24.82
 Viet Nam,Microgrammes per cubic metre,VNM,Viet Nam,2002,25.56
 Viet Nam,Microgrammes per cubic metre,VNM,Viet Nam,2003,24.82
@@ -339,9 +339,9 @@ Maldives,Microgrammes per cubic metre,MDV,Maldives,2000,14.77
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2001,14.82
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2002,14.82
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2003,15.27
-Maldives,Microgrammes per cubic metre,MDV,Maldives,2004,15.70
+Maldives,Microgrammes per cubic metre,MDV,Maldives,2004,15.7
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2005,14.95
-Maldives,Microgrammes per cubic metre,MDV,Maldives,2006,15.40
+Maldives,Microgrammes per cubic metre,MDV,Maldives,2006,15.4
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2007,15.95
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2008,14.82
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2009,15.54
@@ -350,7 +350,7 @@ Maldives,Microgrammes per cubic metre,MDV,Maldives,2011,11.03
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2012,11.98
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2013,12.46
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2014,11.06
-Maldives,Microgrammes per cubic metre,MDV,Maldives,2015,10.60
+Maldives,Microgrammes per cubic metre,MDV,Maldives,2015,10.6
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2016,11.36
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2017,10.65
 Maldives,Microgrammes per cubic metre,MDV,Maldives,2018,11.34
@@ -379,26 +379,26 @@ Istanbul,Microgrammes per cubic metre,TUR,Türkiye,2019,23.24
 Istanbul,Microgrammes per cubic metre,TUR,Türkiye,2020,21.08
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2000,43.06
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2001,36.71
-Yemen,Microgrammes per cubic metre,YEM,Yemen,2002,36.20
+Yemen,Microgrammes per cubic metre,YEM,Yemen,2002,36.2
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2003,37.51
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2004,36.26
-Yemen,Microgrammes per cubic metre,YEM,Yemen,2005,37.10
+Yemen,Microgrammes per cubic metre,YEM,Yemen,2005,37.1
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2006,35.38
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2007,36.44
-Yemen,Microgrammes per cubic metre,YEM,Yemen,2008,43.90
+Yemen,Microgrammes per cubic metre,YEM,Yemen,2008,43.9
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2009,41.08
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2010,37.44
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2011,41.25
-Yemen,Microgrammes per cubic metre,YEM,Yemen,2012,50.80
+Yemen,Microgrammes per cubic metre,YEM,Yemen,2012,50.8
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2013,46.26
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2014,36.69
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2015,41.96
-Yemen,Microgrammes per cubic metre,YEM,Yemen,2016,38.90
+Yemen,Microgrammes per cubic metre,YEM,Yemen,2016,38.9
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2017,40.13
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2018,41.78
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2019,39.65
 Yemen,Microgrammes per cubic metre,YEM,Yemen,2020,33.58
-Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2000,19.40
+Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2000,19.4
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2001,19.72
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2002,20.27
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2003,19.31
@@ -418,13 +418,13 @@ Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2016,15.34
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2017,14.05
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2018,15.88
 Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2019,16.77
-Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2020,16.50
+Timor-Leste,Microgrammes per cubic metre,TLS,Timor-Leste,2020,16.5
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2000,34.66
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2001,34.33
-Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2002,33.20
+Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2002,33.2
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2003,31.81
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2004,32.16
-Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2005,31.80
+Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2005,31.8
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2006,33.35
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2007,34.19
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2008,35.12
@@ -433,7 +433,7 @@ Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2010,38.44
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2011,51.31
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2012,49.79
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2013,49.35
-Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2014,45.20
+Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2014,45.2
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2015,44.14
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2016,43.57
 Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2017,41.02
@@ -443,17 +443,17 @@ Tajikistan,Microgrammes per cubic metre,TJK,Tajikistan,2020,35.92
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2000,86.35
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2001,82.85
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2002,75.05
-Qatar,Microgrammes per cubic metre,QAT,Qatar,2003,101.40
+Qatar,Microgrammes per cubic metre,QAT,Qatar,2003,101.4
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2004,93.43
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2005,96.03
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2006,86.88
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2007,88.91
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2008,100.34
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2009,92.12
-Qatar,Microgrammes per cubic metre,QAT,Qatar,2010,80.40
+Qatar,Microgrammes per cubic metre,QAT,Qatar,2010,80.4
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2011,85.46
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2012,93.17
-Qatar,Microgrammes per cubic metre,QAT,Qatar,2013,85.80
+Qatar,Microgrammes per cubic metre,QAT,Qatar,2013,85.8
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2014,72.91
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2015,93.93
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2016,80.97
@@ -462,8 +462,8 @@ Qatar,Microgrammes per cubic metre,QAT,Qatar,2018,89.91
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2019,78.58
 Qatar,Microgrammes per cubic metre,QAT,Qatar,2020,73.18
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2000,18.35
-Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2001,18.40
-Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2002,18.50
+Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2001,18.4
+Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2002,18.5
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2003,18.18
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2004,17.92
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2005,18.22
@@ -482,8 +482,8 @@ Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2017,22.22
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2018,22.29
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2019,21.13
 Azerbaijan,Microgrammes per cubic metre,AZE,Azerbaijan,2020,20.67
-Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2000,21.80
-Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2001,21.60
+Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2000,21.8
+Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2001,21.6
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2002,24.13
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2003,24.96
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2004,21.69
@@ -493,7 +493,7 @@ Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2007,24.05
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2008,24.33
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2009,27.59
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2010,30.27
-Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2011,38.80
+Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2011,38.8
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2012,41.42
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2013,38.97
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2014,35.04
@@ -503,28 +503,28 @@ Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2017,33.34
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2018,32.35
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2019,33.03
 Mongolia,Microgrammes per cubic metre,MNG,Mongolia,2020,31.17
-San Marino,Microgrammes per cubic metre,SMR,San Marino,2000,15.60
+San Marino,Microgrammes per cubic metre,SMR,San Marino,2000,15.6
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2001,14.35
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2002,14.64
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2003,15.55
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2004,13.67
-San Marino,Microgrammes per cubic metre,SMR,San Marino,2005,14.30
+San Marino,Microgrammes per cubic metre,SMR,San Marino,2005,14.3
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2006,14.46
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2007,13.34
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2008,12.69
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2009,12.87
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2010,11.86
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2011,12.86
-San Marino,Microgrammes per cubic metre,SMR,San Marino,2012,12.00
+San Marino,Microgrammes per cubic metre,SMR,San Marino,2012,12
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2013,11.54
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2014,11.48
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2015,11.96
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2016,10.96
-San Marino,Microgrammes per cubic metre,SMR,San Marino,2017,11.30
+San Marino,Microgrammes per cubic metre,SMR,San Marino,2017,11.3
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2018,11.76
 San Marino,Microgrammes per cubic metre,SMR,San Marino,2019,10.51
-San Marino,Microgrammes per cubic metre,SMR,San Marino,2020,10.60
-National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2000,121.30
+San Marino,Microgrammes per cubic metre,SMR,San Marino,2020,10.6
+National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2000,121.3
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2001,122.43
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2002,126.86
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2003,130.58
@@ -536,15 +536,15 @@ National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2008,
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2009,126.71
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2010,99.54
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2011,125.27
-National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2012,145.30
+National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2012,145.3
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2013,150.33
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2014,153.26
-National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2015,145.30
+National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2015,145.3
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2016,148.86
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2017,132.77
 National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2018,136.28
-National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2019,113.60
-National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2020,92.20
+National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2019,113.6
+National Capital Territory of Delhi,Microgrammes per cubic metre,IND,India,2020,92.2
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2000,14.23
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2001,13.63
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2002,13.68
@@ -555,13 +555,13 @@ Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2006,14.16
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2007,13.09
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2008,12.34
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2009,12.41
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2010,13.00
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2010,13
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2011,12.69
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2012,11.36
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2013,11.70
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2013,11.7
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2014,9.98
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2015,10.38
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2016,9.60
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2016,9.6
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2017,9.59
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2018,9.29
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2019,8.47
@@ -569,12 +569,12 @@ Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2020,8.67
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2000,26.97
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2001,26.57
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2002,27.15
-Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2003,25.50
+Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2003,25.5
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2004,27.59
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2005,27.56
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2006,26.58
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2007,27.99
-Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2008,26.40
+Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2008,26.4
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2009,25.74
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2010,23.26
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2011,19.69
@@ -585,29 +585,29 @@ Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People�
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2016,21.41
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2017,18.21
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2018,19.92
-Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2019,21.30
+Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2019,21.3
 Lao People’s Democratic Republic,Microgrammes per cubic metre,LAO,Lao People’s Democratic Republic,2020,21.19
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2000,27.34
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2001,26.54
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2002,29.84
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2003,23.77
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2004,22.51
-Belarus,Microgrammes per cubic metre,BLR,Belarus,2005,21.50
+Belarus,Microgrammes per cubic metre,BLR,Belarus,2005,21.5
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2006,21.14
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2007,19.52
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2008,18.68
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2009,19.55
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2010,20.72
-Belarus,Microgrammes per cubic metre,BLR,Belarus,2011,18.50
-Belarus,Microgrammes per cubic metre,BLR,Belarus,2012,17.90
+Belarus,Microgrammes per cubic metre,BLR,Belarus,2011,18.5
+Belarus,Microgrammes per cubic metre,BLR,Belarus,2012,17.9
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2013,18.79
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2014,19.22
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2015,17.43
-Belarus,Microgrammes per cubic metre,BLR,Belarus,2016,15.70
+Belarus,Microgrammes per cubic metre,BLR,Belarus,2016,15.7
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2017,15.67
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2018,16.88
 Belarus,Microgrammes per cubic metre,BLR,Belarus,2019,15.55
-Belarus,Microgrammes per cubic metre,BLR,Belarus,2020,14.50
+Belarus,Microgrammes per cubic metre,BLR,Belarus,2020,14.5
 Malta,Microgrammes per cubic metre,MLT,Malta,2000,17.68
 Malta,Microgrammes per cubic metre,MLT,Malta,2001,17.28
 Malta,Microgrammes per cubic metre,MLT,Malta,2002,17.49
@@ -620,19 +620,19 @@ Malta,Microgrammes per cubic metre,MLT,Malta,2008,17.04
 Malta,Microgrammes per cubic metre,MLT,Malta,2009,16.21
 Malta,Microgrammes per cubic metre,MLT,Malta,2010,17.16
 Malta,Microgrammes per cubic metre,MLT,Malta,2011,16.24
-Malta,Microgrammes per cubic metre,MLT,Malta,2012,14.20
+Malta,Microgrammes per cubic metre,MLT,Malta,2012,14.2
 Malta,Microgrammes per cubic metre,MLT,Malta,2013,13.48
 Malta,Microgrammes per cubic metre,MLT,Malta,2014,13.59
 Malta,Microgrammes per cubic metre,MLT,Malta,2015,13.83
 Malta,Microgrammes per cubic metre,MLT,Malta,2016,12.64
 Malta,Microgrammes per cubic metre,MLT,Malta,2017,12.99
-Malta,Microgrammes per cubic metre,MLT,Malta,2018,13.20
+Malta,Microgrammes per cubic metre,MLT,Malta,2018,13.2
 Malta,Microgrammes per cubic metre,MLT,Malta,2019,12.67
 Malta,Microgrammes per cubic metre,MLT,Malta,2020,11.76
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2000,15.76
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2001,13.94
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2002,14.42
-United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2003,17.00
+United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2003,17
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2004,13.72
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2005,14.17
 United Kingdom,Microgrammes per cubic metre,GBR,United Kingdom,2006,14.22
@@ -666,7 +666,7 @@ Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2012,32.86
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2013,34.88
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2014,30.98
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2015,29.68
-Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2016,30.90
+Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2016,30.9
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2017,27.89
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2018,31.25
 Myanmar,Microgrammes per cubic metre,MMR,Myanmar,2019,31.85
@@ -675,19 +675,19 @@ Oman,Microgrammes per cubic metre,OMN,Oman,2000,44.99
 Oman,Microgrammes per cubic metre,OMN,Oman,2001,43.59
 Oman,Microgrammes per cubic metre,OMN,Oman,2002,41.53
 Oman,Microgrammes per cubic metre,OMN,Oman,2003,45.86
-Oman,Microgrammes per cubic metre,OMN,Oman,2004,47.30
+Oman,Microgrammes per cubic metre,OMN,Oman,2004,47.3
 Oman,Microgrammes per cubic metre,OMN,Oman,2005,45.33
 Oman,Microgrammes per cubic metre,OMN,Oman,2006,42.27
-Oman,Microgrammes per cubic metre,OMN,Oman,2007,42.30
+Oman,Microgrammes per cubic metre,OMN,Oman,2007,42.3
 Oman,Microgrammes per cubic metre,OMN,Oman,2008,49.81
-Oman,Microgrammes per cubic metre,OMN,Oman,2009,44.10
+Oman,Microgrammes per cubic metre,OMN,Oman,2009,44.1
 Oman,Microgrammes per cubic metre,OMN,Oman,2010,41.18
 Oman,Microgrammes per cubic metre,OMN,Oman,2011,47.49
 Oman,Microgrammes per cubic metre,OMN,Oman,2012,50.36
 Oman,Microgrammes per cubic metre,OMN,Oman,2013,46.06
-Oman,Microgrammes per cubic metre,OMN,Oman,2014,40.30
+Oman,Microgrammes per cubic metre,OMN,Oman,2014,40.3
 Oman,Microgrammes per cubic metre,OMN,Oman,2015,46.17
-Oman,Microgrammes per cubic metre,OMN,Oman,2016,44.00
+Oman,Microgrammes per cubic metre,OMN,Oman,2016,44
 Oman,Microgrammes per cubic metre,OMN,Oman,2017,47.02
 Oman,Microgrammes per cubic metre,OMN,Oman,2018,47.65
 Oman,Microgrammes per cubic metre,OMN,Oman,2019,43.43
@@ -706,7 +706,7 @@ Nepal,Microgrammes per cubic metre,NPL,Nepal,2010,47.05
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2011,56.07
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2012,69.52
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2013,69.49
-Nepal,Microgrammes per cubic metre,NPL,Nepal,2014,72.90
+Nepal,Microgrammes per cubic metre,NPL,Nepal,2014,72.9
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2015,69.18
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2016,70.59
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2017,62.72
@@ -714,7 +714,7 @@ Nepal,Microgrammes per cubic metre,NPL,Nepal,2018,62.24
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2019,55.41
 Nepal,Microgrammes per cubic metre,NPL,Nepal,2020,44.22
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2000,16.18
-Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2001,15.40
+Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2001,15.4
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2002,14.99
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2003,16.26
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2004,13.78
@@ -725,7 +725,7 @@ Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2008,13.32
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2009,14.11
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2010,13.16
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2011,13.76
-Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2012,12.60
+Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2012,12.6
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2013,12.36
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2014,10.55
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2015,11.63
@@ -733,14 +733,14 @@ Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2016,10.58
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2017,9.86
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2018,10.08
 Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2019,9.39
-Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2020,9.00
+Switzerland,Microgrammes per cubic metre,CHE,Switzerland,2020,9
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2000,9.71
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2001,8.15
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2002,8.53
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2003,9.45
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2004,8.07
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2005,8.44
-Sweden,Microgrammes per cubic metre,SWE,Sweden,2006,9.40
+Sweden,Microgrammes per cubic metre,SWE,Sweden,2006,9.4
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2007,8.23
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2008,7.59
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2009,7.68
@@ -750,7 +750,7 @@ Sweden,Microgrammes per cubic metre,SWE,Sweden,2012,6.62
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2013,6.57
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2014,6.77
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2015,6.31
-Sweden,Microgrammes per cubic metre,SWE,Sweden,2016,5.70
+Sweden,Microgrammes per cubic metre,SWE,Sweden,2016,5.7
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2017,6.07
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2018,6.29
 Sweden,Microgrammes per cubic metre,SWE,Sweden,2019,6.06
@@ -767,8 +767,8 @@ France,Microgrammes per cubic metre,FRA,France,2008,13.41
 France,Microgrammes per cubic metre,FRA,France,2009,13.77
 France,Microgrammes per cubic metre,FRA,France,2010,13.47
 France,Microgrammes per cubic metre,FRA,France,2011,13.48
-France,Microgrammes per cubic metre,FRA,France,2012,12.30
-France,Microgrammes per cubic metre,FRA,France,2013,12.20
+France,Microgrammes per cubic metre,FRA,France,2012,12.3
+France,Microgrammes per cubic metre,FRA,France,2013,12.2
 France,Microgrammes per cubic metre,FRA,France,2014,10.52
 France,Microgrammes per cubic metre,FRA,France,2015,11.16
 France,Microgrammes per cubic metre,FRA,France,2016,10.37
@@ -781,9 +781,9 @@ Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2001,63.55
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2002,63.49
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2003,62.67
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2004,61.41
-Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2005,61.40
+Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2005,61.4
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2006,63.37
-Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2007,62.40
+Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2007,62.4
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2008,61.53
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2009,62.42
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2010,48.32
@@ -794,7 +794,7 @@ Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2014,74.76
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2015,71.37
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2016,70.54
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2017,63.98
-Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2018,65.20
+Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2018,65.2
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2019,56.61
 Afghanistan,Microgrammes per cubic metre,AFG,Afghanistan,2020,44.72
 Italy,Microgrammes per cubic metre,ITA,Italy,2000,25.46
@@ -808,7 +808,7 @@ Italy,Microgrammes per cubic metre,ITA,Italy,2007,21.53
 Italy,Microgrammes per cubic metre,ITA,Italy,2008,20.22
 Italy,Microgrammes per cubic metre,ITA,Italy,2009,20.52
 Italy,Microgrammes per cubic metre,ITA,Italy,2010,19.57
-Italy,Microgrammes per cubic metre,ITA,Italy,2011,20.70
+Italy,Microgrammes per cubic metre,ITA,Italy,2011,20.7
 Italy,Microgrammes per cubic metre,ITA,Italy,2012,18.22
 Italy,Microgrammes per cubic metre,ITA,Italy,2013,17.53
 Italy,Microgrammes per cubic metre,ITA,Italy,2014,16.43
@@ -841,16 +841,16 @@ Lithuania,Microgrammes per cubic metre,LTU,Lithuania,2019,10.28
 Lithuania,Microgrammes per cubic metre,LTU,Lithuania,2020,9.23
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2000,29.64
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2001,26.39
-Philippines,Microgrammes per cubic metre,PHL,Philippines,2002,27.10
+Philippines,Microgrammes per cubic metre,PHL,Philippines,2002,27.1
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2003,27.78
-Philippines,Microgrammes per cubic metre,PHL,Philippines,2004,28.70
+Philippines,Microgrammes per cubic metre,PHL,Philippines,2004,28.7
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2005,28.57
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2006,28.86
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2007,28.19
-Philippines,Microgrammes per cubic metre,PHL,Philippines,2008,27.90
+Philippines,Microgrammes per cubic metre,PHL,Philippines,2008,27.9
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2009,26.56
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2010,22.23
-Philippines,Microgrammes per cubic metre,PHL,Philippines,2011,19.60
+Philippines,Microgrammes per cubic metre,PHL,Philippines,2011,19.6
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2012,21.09
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2013,22.04
 Philippines,Microgrammes per cubic metre,PHL,Philippines,2014,19.73
@@ -870,13 +870,13 @@ Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2006,14.16
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2007,13.09
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2008,12.34
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2009,12.41
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2010,13.00
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2011,12.70
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2010,13
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2011,12.7
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2012,11.36
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2013,11.70
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2013,11.7
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2014,9.98
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2015,10.38
-Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2016,9.60
+Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2016,9.6
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2017,9.59
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2018,9.29
 Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2019,8.47
@@ -884,7 +884,7 @@ Luxembourg,Microgrammes per cubic metre,LUX,Luxembourg,2020,8.67
 Greece,Microgrammes per cubic metre,GRC,Greece,2000,23.95
 Greece,Microgrammes per cubic metre,GRC,Greece,2001,22.29
 Greece,Microgrammes per cubic metre,GRC,Greece,2002,23.07
-Greece,Microgrammes per cubic metre,GRC,Greece,2003,24.30
+Greece,Microgrammes per cubic metre,GRC,Greece,2003,24.3
 Greece,Microgrammes per cubic metre,GRC,Greece,2004,21.35
 Greece,Microgrammes per cubic metre,GRC,Greece,2005,22.11
 Greece,Microgrammes per cubic metre,GRC,Greece,2006,22.81
@@ -892,7 +892,7 @@ Greece,Microgrammes per cubic metre,GRC,Greece,2007,22.06
 Greece,Microgrammes per cubic metre,GRC,Greece,2008,21.31
 Greece,Microgrammes per cubic metre,GRC,Greece,2009,20.51
 Greece,Microgrammes per cubic metre,GRC,Greece,2010,19.96
-Greece,Microgrammes per cubic metre,GRC,Greece,2011,21.00
+Greece,Microgrammes per cubic metre,GRC,Greece,2011,21
 Greece,Microgrammes per cubic metre,GRC,Greece,2012,18.49
 Greece,Microgrammes per cubic metre,GRC,Greece,2013,17.67
 Greece,Microgrammes per cubic metre,GRC,Greece,2014,16.58
@@ -903,9 +903,9 @@ Greece,Microgrammes per cubic metre,GRC,Greece,2018,15.35
 Greece,Microgrammes per cubic metre,GRC,Greece,2019,14.72
 Greece,Microgrammes per cubic metre,GRC,Greece,2020,14.18
 Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2000,21.41
-Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2001,20.90
+Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2001,20.9
 Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2002,21.75
-Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2003,20.80
+Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2003,20.8
 Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2004,20.91
 Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2005,21.16
 Kyrgyzstan,Microgrammes per cubic metre,KGZ,Kyrgyzstan,2006,21.93
@@ -927,7 +927,7 @@ Denmark,Microgrammes per cubic metre,DNK,Denmark,2000,15.34
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2001,13.02
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2002,14.19
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2003,15.71
-Denmark,Microgrammes per cubic metre,DNK,Denmark,2004,13.00
+Denmark,Microgrammes per cubic metre,DNK,Denmark,2004,13
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2005,13.84
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2006,14.73
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2007,13.71
@@ -935,18 +935,18 @@ Denmark,Microgrammes per cubic metre,DNK,Denmark,2008,11.67
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2009,11.97
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2010,12.82
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2011,13.07
-Denmark,Microgrammes per cubic metre,DNK,Denmark,2012,10.60
-Denmark,Microgrammes per cubic metre,DNK,Denmark,2013,10.20
+Denmark,Microgrammes per cubic metre,DNK,Denmark,2012,10.6
+Denmark,Microgrammes per cubic metre,DNK,Denmark,2013,10.2
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2014,10.59
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2015,10.03
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2016,9.06
-Denmark,Microgrammes per cubic metre,DNK,Denmark,2017,9.90
+Denmark,Microgrammes per cubic metre,DNK,Denmark,2017,9.9
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2018,10.14
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2019,9.41
 Denmark,Microgrammes per cubic metre,DNK,Denmark,2020,8.89
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2000,44.21
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2001,42.98
-DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2002,37.90
+DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2002,37.9
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2003,37.48
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2004,37.06
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2005,38.16
@@ -960,13 +960,13 @@ DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2012,30.31
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2013,30.39
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2014,26.94
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2015,27.52
-DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2016,30.90
-DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2017,26.90
+DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2016,30.9
+DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2017,26.9
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2018,28.21
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2019,29.15
 DKI Jakarta Province,Microgrammes per cubic metre,IDN,Indonesia,2020,25.12
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2000,12.29
-Ireland,Microgrammes per cubic metre,IRL,Ireland,2001,11.40
+Ireland,Microgrammes per cubic metre,IRL,Ireland,2001,11.4
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2002,11.62
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2003,13.96
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2004,10.63
@@ -985,15 +985,15 @@ Ireland,Microgrammes per cubic metre,IRL,Ireland,2016,7.96
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2017,8.24
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2018,8.15
 Ireland,Microgrammes per cubic metre,IRL,Ireland,2019,7.74
-Ireland,Microgrammes per cubic metre,IRL,Ireland,2020,8.00
+Ireland,Microgrammes per cubic metre,IRL,Ireland,2020,8
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2000,15.73
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2001,16.11
-Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2002,16.40
+Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2002,16.4
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2003,15.93
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2004,15.91
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2005,16.06
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2006,16.59
-Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2007,16.60
+Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2007,16.6
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2008,17.17
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2009,18.33
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2010,20.06
@@ -1001,7 +1001,7 @@ Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2011,24.94
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2012,26.55
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2013,25.12
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2014,23.34
-Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2015,22.10
+Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2015,22.1
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2016,22.26
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2017,20.62
 Kazakhstan,Microgrammes per cubic metre,KAZ,Kazakhstan,2018,20.22
@@ -1024,7 +1024,7 @@ Hungary,Microgrammes per cubic metre,HUN,Hungary,2013,17.75
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2014,17.83
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2015,17.86
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2016,16.13
-Hungary,Microgrammes per cubic metre,HUN,Hungary,2017,16.90
+Hungary,Microgrammes per cubic metre,HUN,Hungary,2017,16.9
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2018,17.37
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2019,14.54
 Hungary,Microgrammes per cubic metre,HUN,Hungary,2020,14.03
@@ -1033,7 +1033,7 @@ Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2001,36.04
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2002,36.13
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2003,36.97
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2004,36.94
-Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2005,37.40
+Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2005,37.4
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2006,37.88
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2007,37.65
 Bhutan,Microgrammes per cubic metre,BTN,Bhutan,2008,36.77
@@ -1066,7 +1066,7 @@ Poland,Microgrammes per cubic metre,POL,Poland,2013,23.01
 Poland,Microgrammes per cubic metre,POL,Poland,2014,23.27
 Poland,Microgrammes per cubic metre,POL,Poland,2015,22.25
 Poland,Microgrammes per cubic metre,POL,Poland,2016,21.09
-Poland,Microgrammes per cubic metre,POL,Poland,2017,22.10
+Poland,Microgrammes per cubic metre,POL,Poland,2017,22.1
 Poland,Microgrammes per cubic metre,POL,Poland,2018,22.26
 Poland,Microgrammes per cubic metre,POL,Poland,2019,18.64
 Poland,Microgrammes per cubic metre,POL,Poland,2020,17.84
@@ -1075,11 +1075,11 @@ Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2001,59.56
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2002,60.09
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2003,60.43
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2004,59.46
-Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2005,58.90
+Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2005,58.9
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2006,60.91
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2007,60.23
-Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2008,58.80
-Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2009,58.90
+Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2008,58.8
+Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2009,58.9
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2010,46.57
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2011,55.73
 Pakistan,Microgrammes per cubic metre,PAK,Pakistan,2012,66.84
@@ -1096,10 +1096,10 @@ Serbia,Microgrammes per cubic metre,SRB,Serbia,2001,31.86
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2002,34.42
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2003,37.33
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2004,32.35
-Serbia,Microgrammes per cubic metre,SRB,Serbia,2005,33.60
-Serbia,Microgrammes per cubic metre,SRB,Serbia,2006,35.00
+Serbia,Microgrammes per cubic metre,SRB,Serbia,2005,33.6
+Serbia,Microgrammes per cubic metre,SRB,Serbia,2006,35
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2007,28.19
-Serbia,Microgrammes per cubic metre,SRB,Serbia,2008,28.30
+Serbia,Microgrammes per cubic metre,SRB,Serbia,2008,28.3
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2009,29.42
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2010,31.83
 Serbia,Microgrammes per cubic metre,SRB,Serbia,2011,34.04
@@ -1123,11 +1123,11 @@ Iraq,Microgrammes per cubic metre,IRQ,Iraq,2007,43.28
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2008,48.66
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2009,45.75
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2010,47.36
-Iraq,Microgrammes per cubic metre,IRQ,Iraq,2011,43.50
-Iraq,Microgrammes per cubic metre,IRQ,Iraq,2012,42.60
+Iraq,Microgrammes per cubic metre,IRQ,Iraq,2011,43.5
+Iraq,Microgrammes per cubic metre,IRQ,Iraq,2012,42.6
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2013,41.88
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2014,37.25
-Iraq,Microgrammes per cubic metre,IRQ,Iraq,2015,43.80
+Iraq,Microgrammes per cubic metre,IRQ,Iraq,2015,43.8
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2016,41.71
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2017,39.31
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2018,40.99
@@ -1135,7 +1135,7 @@ Iraq,Microgrammes per cubic metre,IRQ,Iraq,2019,37.45
 Iraq,Microgrammes per cubic metre,IRQ,Iraq,2020,37.79
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2000,21.22
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2001,21.54
-Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2002,24.40
+Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2002,24.4
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2003,25.44
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2004,22.08
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2005,23.18
@@ -1143,7 +1143,7 @@ Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2006,24.54
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2007,19.66
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2008,19.38
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2009,20.23
-Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2010,21.30
+Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2010,21.3
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2011,22.37
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2012,20.18
 Slovak Republic,Microgrammes per cubic metre,SVK,Slovak Republic,2013,19.43
@@ -1159,7 +1159,7 @@ Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2001,59.97
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2002,54.69
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2003,65.53
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2004,56.78
-Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2005,65.80
+Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2005,65.8
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2006,57.43
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2007,61.01
 Kuwait,Microgrammes per cubic metre,KWT,Kuwait,2008,71.72
@@ -1191,15 +1191,15 @@ Moldova,Microgrammes per cubic metre,MDA,Moldova,2012,20.05
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2013,19.55
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2014,18.38
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2015,17.83
-Moldova,Microgrammes per cubic metre,MDA,Moldova,2016,16.70
+Moldova,Microgrammes per cubic metre,MDA,Moldova,2016,16.7
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2017,14.89
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2018,16.78
 Moldova,Microgrammes per cubic metre,MDA,Moldova,2019,15.44
-Moldova,Microgrammes per cubic metre,MDA,Moldova,2020,14.40
-Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2000,20.40
+Moldova,Microgrammes per cubic metre,MDA,Moldova,2020,14.4
+Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2000,20.4
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2001,19.76
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2002,22.31
-Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2003,23.50
+Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2003,23.5
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2004,20.57
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2005,21.65
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2006,22.66
@@ -1216,14 +1216,14 @@ Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2016,16.12
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2017,16.18
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2018,17.81
 Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2019,13.65
-Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2020,14.00
+Slovenia,Microgrammes per cubic metre,SVN,Slovenia,2020,14
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2000,56.38
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2001,53.77
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2002,53.38
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2003,65.69
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2004,62.39
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2005,60.99
-Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2006,59.20
+Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2006,59.2
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2007,61.22
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2008,68.51
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2009,63.95
@@ -1239,9 +1239,9 @@ Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2018,64.02
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2019,60.64
 Saudi Arabia,Microgrammes per cubic metre,SAU,Saudi Arabia,2020,55.47
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2000,30.04
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2001,30.40
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2002,30.50
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2003,31.40
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2001,30.4
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2002,30.5
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2003,31.4
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2004,31.89
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2005,32.37
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2006,32.04
@@ -1249,30 +1249,30 @@ Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2007,32.14
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2008,32.54
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2009,33.73
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2010,27.78
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2011,30.80
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2011,30.8
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2012,28.55
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2013,33.81
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2014,33.10
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2014,33.1
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2015,29.62
-Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2016,27.60
+Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2016,27.6
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2017,27.69
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2018,23.79
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2019,22.66
 Macau (China),Microgrammes per cubic metre,MAC,Macau (China),2020,20.69
-Spain,Microgrammes per cubic metre,ESP,Spain,2000,16.10
+Spain,Microgrammes per cubic metre,ESP,Spain,2000,16.1
 Spain,Microgrammes per cubic metre,ESP,Spain,2001,15.08
 Spain,Microgrammes per cubic metre,ESP,Spain,2002,15.22
 Spain,Microgrammes per cubic metre,ESP,Spain,2003,15.61
-Spain,Microgrammes per cubic metre,ESP,Spain,2004,14.50
+Spain,Microgrammes per cubic metre,ESP,Spain,2004,14.5
 Spain,Microgrammes per cubic metre,ESP,Spain,2005,14.49
 Spain,Microgrammes per cubic metre,ESP,Spain,2006,15.13
 Spain,Microgrammes per cubic metre,ESP,Spain,2007,14.53
-Spain,Microgrammes per cubic metre,ESP,Spain,2008,13.00
+Spain,Microgrammes per cubic metre,ESP,Spain,2008,13
 Spain,Microgrammes per cubic metre,ESP,Spain,2009,13.12
 Spain,Microgrammes per cubic metre,ESP,Spain,2010,12.45
 Spain,Microgrammes per cubic metre,ESP,Spain,2011,13.43
 Spain,Microgrammes per cubic metre,ESP,Spain,2012,12.08
-Spain,Microgrammes per cubic metre,ESP,Spain,2013,11.30
+Spain,Microgrammes per cubic metre,ESP,Spain,2013,11.3
 Spain,Microgrammes per cubic metre,ESP,Spain,2014,10.64
 Spain,Microgrammes per cubic metre,ESP,Spain,2015,11.34
 Spain,Microgrammes per cubic metre,ESP,Spain,2016,10.41
@@ -1303,7 +1303,7 @@ Iran,Microgrammes per cubic metre,IRN,Iran,2019,34.14
 Iran,Microgrammes per cubic metre,IRN,Iran,2020,32.35
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2000,25.14
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2001,25.15
-Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2002,24.20
+Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2002,24.2
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2003,24.61
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2004,24.58
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2005,25.38
@@ -1312,23 +1312,23 @@ Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2007,25.37
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2008,25.59
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2009,24.64
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2010,21.59
-Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2011,18.90
+Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2011,18.9
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2012,20.42
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2013,21.48
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2014,19.37
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2015,17.52
-Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2016,19.10
+Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2016,19.1
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2017,17.93
-Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2018,20.50
+Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2018,20.5
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2019,19.39
 Sri Lanka,Microgrammes per cubic metre,LKA,Sri Lanka,2020,19.54
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2000,25.78
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2001,26.61
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2002,26.45
-Armenia,Microgrammes per cubic metre,ARM,Armenia,2003,27.10
+Armenia,Microgrammes per cubic metre,ARM,Armenia,2003,27.1
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2004,26.46
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2005,26.83
-Armenia,Microgrammes per cubic metre,ARM,Armenia,2006,26.50
+Armenia,Microgrammes per cubic metre,ARM,Armenia,2006,26.5
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2007,27.21
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2008,28.56
 Armenia,Microgrammes per cubic metre,ARM,Armenia,2009,31.05
@@ -1350,7 +1350,7 @@ Thailand,Microgrammes per cubic metre,THA,Thailand,2003,37.24
 Thailand,Microgrammes per cubic metre,THA,Thailand,2004,39.51
 Thailand,Microgrammes per cubic metre,THA,Thailand,2005,38.99
 Thailand,Microgrammes per cubic metre,THA,Thailand,2006,38.57
-Thailand,Microgrammes per cubic metre,THA,Thailand,2007,40.40
+Thailand,Microgrammes per cubic metre,THA,Thailand,2007,40.4
 Thailand,Microgrammes per cubic metre,THA,Thailand,2008,39.14
 Thailand,Microgrammes per cubic metre,THA,Thailand,2009,37.51
 Thailand,Microgrammes per cubic metre,THA,Thailand,2010,32.75
@@ -1377,7 +1377,7 @@ United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2009,
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2010,41.22
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2011,45.08
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2012,48.02
-United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2013,42.20
+United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2013,42.2
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2014,37.84
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2015,47.14
 United Arab Emirates,Microgrammes per cubic metre,ARE,United Arab Emirates,2016,42.33
@@ -1413,7 +1413,7 @@ Monaco,Microgrammes per cubic metre,MCO,Monaco,2003,18.18
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2004,15.51
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2005,15.96
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2006,16.21
-Monaco,Microgrammes per cubic metre,MCO,Monaco,2007,15.70
+Monaco,Microgrammes per cubic metre,MCO,Monaco,2007,15.7
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2008,14.44
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2009,14.64
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2010,13.98
@@ -1427,9 +1427,9 @@ Monaco,Microgrammes per cubic metre,MCO,Monaco,2017,11.19
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2018,11.46
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2019,10.32
 Monaco,Microgrammes per cubic metre,MCO,Monaco,2020,10.24
-Albania,Microgrammes per cubic metre,ALB,Albania,2000,21.90
+Albania,Microgrammes per cubic metre,ALB,Albania,2000,21.9
 Albania,Microgrammes per cubic metre,ALB,Albania,2001,20.85
-Albania,Microgrammes per cubic metre,ALB,Albania,2002,23.20
+Albania,Microgrammes per cubic metre,ALB,Albania,2002,23.2
 Albania,Microgrammes per cubic metre,ALB,Albania,2003,25.52
 Albania,Microgrammes per cubic metre,ALB,Albania,2004,22.44
 Albania,Microgrammes per cubic metre,ALB,Albania,2005,22.34
@@ -1451,7 +1451,7 @@ Albania,Microgrammes per cubic metre,ALB,Albania,2020,15.43
 Norway,Microgrammes per cubic metre,NOR,Norway,2000,10.52
 Norway,Microgrammes per cubic metre,NOR,Norway,2001,9.14
 Norway,Microgrammes per cubic metre,NOR,Norway,2002,9.42
-Norway,Microgrammes per cubic metre,NOR,Norway,2003,10.20
+Norway,Microgrammes per cubic metre,NOR,Norway,2003,10.2
 Norway,Microgrammes per cubic metre,NOR,Norway,2004,8.76
 Norway,Microgrammes per cubic metre,NOR,Norway,2005,8.65
 Norway,Microgrammes per cubic metre,NOR,Norway,2006,10.01
@@ -1459,7 +1459,7 @@ Norway,Microgrammes per cubic metre,NOR,Norway,2007,8.56
 Norway,Microgrammes per cubic metre,NOR,Norway,2008,8.24
 Norway,Microgrammes per cubic metre,NOR,Norway,2009,8.44
 Norway,Microgrammes per cubic metre,NOR,Norway,2010,7.88
-Norway,Microgrammes per cubic metre,NOR,Norway,2011,8.70
+Norway,Microgrammes per cubic metre,NOR,Norway,2011,8.7
 Norway,Microgrammes per cubic metre,NOR,Norway,2012,7.34
 Norway,Microgrammes per cubic metre,NOR,Norway,2013,7.06
 Norway,Microgrammes per cubic metre,NOR,Norway,2014,7.11
@@ -1477,8 +1477,8 @@ Korea,Microgrammes per cubic metre,KOR,Korea,2004,23.71
 Korea,Microgrammes per cubic metre,KOR,Korea,2005,24.03
 Korea,Microgrammes per cubic metre,KOR,Korea,2006,24.26
 Korea,Microgrammes per cubic metre,KOR,Korea,2007,24.22
-Korea,Microgrammes per cubic metre,KOR,Korea,2008,24.30
-Korea,Microgrammes per cubic metre,KOR,Korea,2009,23.40
+Korea,Microgrammes per cubic metre,KOR,Korea,2008,24.3
+Korea,Microgrammes per cubic metre,KOR,Korea,2009,23.4
 Korea,Microgrammes per cubic metre,KOR,Korea,2010,21.62
 Korea,Microgrammes per cubic metre,KOR,Korea,2011,24.66
 Korea,Microgrammes per cubic metre,KOR,Korea,2012,25.26
@@ -1488,11 +1488,11 @@ Korea,Microgrammes per cubic metre,KOR,Korea,2015,26.06
 Korea,Microgrammes per cubic metre,KOR,Korea,2016,26.42
 Korea,Microgrammes per cubic metre,KOR,Korea,2017,25.68
 Korea,Microgrammes per cubic metre,KOR,Korea,2018,25.54
-Korea,Microgrammes per cubic metre,KOR,Korea,2019,25.50
-Korea,Microgrammes per cubic metre,KOR,Korea,2020,25.30
+Korea,Microgrammes per cubic metre,KOR,Korea,2019,25.5
+Korea,Microgrammes per cubic metre,KOR,Korea,2020,25.3
 Andorra,Microgrammes per cubic metre,AND,Andorra,2000,15.58
 Andorra,Microgrammes per cubic metre,AND,Andorra,2001,14.87
-Andorra,Microgrammes per cubic metre,AND,Andorra,2002,14.80
+Andorra,Microgrammes per cubic metre,AND,Andorra,2002,14.8
 Andorra,Microgrammes per cubic metre,AND,Andorra,2003,15.05
 Andorra,Microgrammes per cubic metre,AND,Andorra,2004,13.84
 Andorra,Microgrammes per cubic metre,AND,Andorra,2005,13.96
@@ -1511,14 +1511,14 @@ Andorra,Microgrammes per cubic metre,AND,Andorra,2017,9.72
 Andorra,Microgrammes per cubic metre,AND,Andorra,2018,9.58
 Andorra,Microgrammes per cubic metre,AND,Andorra,2019,8.75
 Andorra,Microgrammes per cubic metre,AND,Andorra,2020,8.81
-Estonia,Microgrammes per cubic metre,EST,Estonia,2000,11.50
+Estonia,Microgrammes per cubic metre,EST,Estonia,2000,11.5
 Estonia,Microgrammes per cubic metre,EST,Estonia,2001,10.99
 Estonia,Microgrammes per cubic metre,EST,Estonia,2002,12.25
-Estonia,Microgrammes per cubic metre,EST,Estonia,2003,10.40
+Estonia,Microgrammes per cubic metre,EST,Estonia,2003,10.4
 Estonia,Microgrammes per cubic metre,EST,Estonia,2004,9.58
 Estonia,Microgrammes per cubic metre,EST,Estonia,2005,9.37
 Estonia,Microgrammes per cubic metre,EST,Estonia,2006,9.27
-Estonia,Microgrammes per cubic metre,EST,Estonia,2007,8.20
+Estonia,Microgrammes per cubic metre,EST,Estonia,2007,8.2
 Estonia,Microgrammes per cubic metre,EST,Estonia,2008,8.05
 Estonia,Microgrammes per cubic metre,EST,Estonia,2009,8.12
 Estonia,Microgrammes per cubic metre,EST,Estonia,2010,8.91
@@ -1527,7 +1527,7 @@ Estonia,Microgrammes per cubic metre,EST,Estonia,2012,7.84
 Estonia,Microgrammes per cubic metre,EST,Estonia,2013,7.94
 Estonia,Microgrammes per cubic metre,EST,Estonia,2014,8.59
 Estonia,Microgrammes per cubic metre,EST,Estonia,2015,7.09
-Estonia,Microgrammes per cubic metre,EST,Estonia,2016,6.80
+Estonia,Microgrammes per cubic metre,EST,Estonia,2016,6.8
 Estonia,Microgrammes per cubic metre,EST,Estonia,2017,6.09
 Estonia,Microgrammes per cubic metre,EST,Estonia,2018,7.72
 Estonia,Microgrammes per cubic metre,EST,Estonia,2019,6.81
@@ -1540,16 +1540,16 @@ Jordan,Microgrammes per cubic metre,JOR,Jordan,2004,30.86
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2005,28.62
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2006,28.98
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2007,29.31
-Jordan,Microgrammes per cubic metre,JOR,Jordan,2008,30.00
+Jordan,Microgrammes per cubic metre,JOR,Jordan,2008,30
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2009,30.22
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2010,32.49
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2011,28.72
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2012,28.02
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2013,31.51
-Jordan,Microgrammes per cubic metre,JOR,Jordan,2014,29.20
+Jordan,Microgrammes per cubic metre,JOR,Jordan,2014,29.2
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2015,30.82
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2016,27.41
-Jordan,Microgrammes per cubic metre,JOR,Jordan,2017,27.50
+Jordan,Microgrammes per cubic metre,JOR,Jordan,2017,27.5
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2018,30.09
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2019,30.53
 Jordan,Microgrammes per cubic metre,JOR,Jordan,2020,28.25
@@ -1575,11 +1575,11 @@ Malta,Microgrammes per cubic metre,MLT,Malta,2018,13.18
 Malta,Microgrammes per cubic metre,MLT,Malta,2019,12.66
 Malta,Microgrammes per cubic metre,MLT,Malta,2020,11.74
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2000,29.47
-Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2001,28.50
+Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2001,28.5
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2002,28.81
-Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2003,27.90
+Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2003,27.9
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2004,27.97
-Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2005,27.90
+Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2005,27.9
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2006,29.45
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2007,29.49
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2008,30.34
@@ -1591,7 +1591,7 @@ Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2013,42.46
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2014,39.12
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2015,37.38
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2016,37.35
-Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2017,34.90
+Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2017,34.9
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2018,34.56
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2019,33.89
 Uzbekistan,Microgrammes per cubic metre,UZB,Uzbekistan,2020,31.77
@@ -1610,7 +1610,7 @@ Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2011,19.14
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2012,18.62
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2013,20.03
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2014,20.02
-Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2015,20.40
+Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2015,20.4
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2016,19.16
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2017,18.68
 Lebanon,Microgrammes per cubic metre,LBN,Lebanon,2018,19.68
@@ -1648,8 +1648,8 @@ Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2007,7.02
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2008,6.85
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2009,7.18
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2010,6.27
-Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2011,7.20
-Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2012,7.60
+Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2011,7.2
+Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2012,7.6
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2013,7.77
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2014,8.01
 Brunei Darussalam,Microgrammes per cubic metre,BRN,Brunei Darussalam,2015,7.73
@@ -1671,7 +1671,7 @@ Romania,Microgrammes per cubic metre,ROU,Romania,2009,18.97
 Romania,Microgrammes per cubic metre,ROU,Romania,2010,19.84
 Romania,Microgrammes per cubic metre,ROU,Romania,2011,21.16
 Romania,Microgrammes per cubic metre,ROU,Romania,2012,19.24
-Romania,Microgrammes per cubic metre,ROU,Romania,2013,17.70
+Romania,Microgrammes per cubic metre,ROU,Romania,2013,17.7
 Romania,Microgrammes per cubic metre,ROU,Romania,2014,17.78
 Romania,Microgrammes per cubic metre,ROU,Romania,2015,17.25
 Romania,Microgrammes per cubic metre,ROU,Romania,2016,16.27
@@ -1680,13 +1680,13 @@ Romania,Microgrammes per cubic metre,ROU,Romania,2018,16.64
 Romania,Microgrammes per cubic metre,ROU,Romania,2019,14.24
 Romania,Microgrammes per cubic metre,ROU,Romania,2020,13.85
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2000,18.99
-Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2001,17.20
+Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2001,17.2
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2002,17.87
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2003,19.46
-Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2004,17.50
-Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2005,17.20
+Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2004,17.5
+Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2005,17.2
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2006,18.09
-Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2007,16.80
+Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2007,16.8
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2008,15.85
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2009,15.55
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2010,16.16
@@ -1696,14 +1696,14 @@ Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2013,13.19
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2014,12.51
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2015,13.01
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2016,11.86
-Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2017,12.60
+Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2017,12.6
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2018,11.97
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2019,11.27
 Netherlands,Microgrammes per cubic metre,NLD,Netherlands,2020,10.79
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2000,20.37
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2001,21.03
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2002,23.33
-Czechia,Microgrammes per cubic metre,CZE,Czechia,2003,24.20
+Czechia,Microgrammes per cubic metre,CZE,Czechia,2003,24.2
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2004,20.87
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2005,22.22
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2006,23.17
@@ -1712,14 +1712,14 @@ Czechia,Microgrammes per cubic metre,CZE,Czechia,2008,18.25
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2009,19.27
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2010,20.81
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2011,20.92
-Czechia,Microgrammes per cubic metre,CZE,Czechia,2012,19.20
+Czechia,Microgrammes per cubic metre,CZE,Czechia,2012,19.2
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2013,18.85
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2014,18.29
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2015,17.75
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2016,16.93
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2017,16.89
-Czechia,Microgrammes per cubic metre,CZE,Czechia,2018,17.30
-Czechia,Microgrammes per cubic metre,CZE,Czechia,2019,14.20
+Czechia,Microgrammes per cubic metre,CZE,Czechia,2018,17.3
+Czechia,Microgrammes per cubic metre,CZE,Czechia,2019,14.2
 Czechia,Microgrammes per cubic metre,CZE,Czechia,2020,14.07
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2000,20.92
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2001,19.81
@@ -1734,7 +1734,7 @@ Singapore,Microgrammes per cubic metre,SGP,Singapore,2009,17.24
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2010,14.93
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2011,15.92
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2012,17.63
-Singapore,Microgrammes per cubic metre,SGP,Singapore,2013,18.90
+Singapore,Microgrammes per cubic metre,SGP,Singapore,2013,18.9
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2014,17.53
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2015,17.59
 Singapore,Microgrammes per cubic metre,SGP,Singapore,2016,16.33
@@ -1753,13 +1753,13 @@ Austria,Microgrammes per cubic metre,AUT,Austria,2007,16.04
 Austria,Microgrammes per cubic metre,AUT,Austria,2008,15.19
 Austria,Microgrammes per cubic metre,AUT,Austria,2009,16.47
 Austria,Microgrammes per cubic metre,AUT,Austria,2010,15.91
-Austria,Microgrammes per cubic metre,AUT,Austria,2011,16.30
+Austria,Microgrammes per cubic metre,AUT,Austria,2011,16.3
 Austria,Microgrammes per cubic metre,AUT,Austria,2012,14.65
 Austria,Microgrammes per cubic metre,AUT,Austria,2013,14.59
 Austria,Microgrammes per cubic metre,AUT,Austria,2014,12.89
 Austria,Microgrammes per cubic metre,AUT,Austria,2015,13.53
 Austria,Microgrammes per cubic metre,AUT,Austria,2016,12.47
-Austria,Microgrammes per cubic metre,AUT,Austria,2017,12.10
+Austria,Microgrammes per cubic metre,AUT,Austria,2017,12.1
 Austria,Microgrammes per cubic metre,AUT,Austria,2018,12.54
 Austria,Microgrammes per cubic metre,AUT,Austria,2019,11.42
 Austria,Microgrammes per cubic metre,AUT,Austria,2020,10.89
@@ -1767,7 +1767,7 @@ Iceland,Microgrammes per cubic metre,ISL,Iceland,2000,8.04
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2001,7.64
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2002,8.13
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2003,8.58
-Iceland,Microgrammes per cubic metre,ISL,Iceland,2004,8.00
+Iceland,Microgrammes per cubic metre,ISL,Iceland,2004,8
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2005,7.72
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2006,7.89
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2007,7.54
@@ -1775,21 +1775,21 @@ Iceland,Microgrammes per cubic metre,ISL,Iceland,2008,7.41
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2009,7.36
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2010,7.04
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2011,7.23
-Iceland,Microgrammes per cubic metre,ISL,Iceland,2012,6.60
+Iceland,Microgrammes per cubic metre,ISL,Iceland,2012,6.6
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2013,6.45
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2014,6.25
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2015,6.18
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2016,5.69
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2017,6.31
-Iceland,Microgrammes per cubic metre,ISL,Iceland,2018,6.00
+Iceland,Microgrammes per cubic metre,ISL,Iceland,2018,6
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2019,5.95
 Iceland,Microgrammes per cubic metre,ISL,Iceland,2020,5.48
-Finland,Microgrammes per cubic metre,FIN,Finland,2000,8.10
+Finland,Microgrammes per cubic metre,FIN,Finland,2000,8.1
 Finland,Microgrammes per cubic metre,FIN,Finland,2001,7.47
 Finland,Microgrammes per cubic metre,FIN,Finland,2002,7.49
 Finland,Microgrammes per cubic metre,FIN,Finland,2003,8.03
 Finland,Microgrammes per cubic metre,FIN,Finland,2004,7.28
-Finland,Microgrammes per cubic metre,FIN,Finland,2005,7.60
+Finland,Microgrammes per cubic metre,FIN,Finland,2005,7.6
 Finland,Microgrammes per cubic metre,FIN,Finland,2006,8.39
 Finland,Microgrammes per cubic metre,FIN,Finland,2007,7.24
 Finland,Microgrammes per cubic metre,FIN,Finland,2008,6.89
@@ -1800,17 +1800,17 @@ Finland,Microgrammes per cubic metre,FIN,Finland,2012,6.26
 Finland,Microgrammes per cubic metre,FIN,Finland,2013,5.89
 Finland,Microgrammes per cubic metre,FIN,Finland,2014,6.15
 Finland,Microgrammes per cubic metre,FIN,Finland,2015,5.65
-Finland,Microgrammes per cubic metre,FIN,Finland,2016,5.30
+Finland,Microgrammes per cubic metre,FIN,Finland,2016,5.3
 Finland,Microgrammes per cubic metre,FIN,Finland,2017,5.15
 Finland,Microgrammes per cubic metre,FIN,Finland,2018,5.52
-Finland,Microgrammes per cubic metre,FIN,Finland,2019,5.40
+Finland,Microgrammes per cubic metre,FIN,Finland,2019,5.4
 Finland,Microgrammes per cubic metre,FIN,Finland,2020,4.92
-Georgia,Microgrammes per cubic metre,GEO,Georgia,2000,14.80
+Georgia,Microgrammes per cubic metre,GEO,Georgia,2000,14.8
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2001,15.01
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2002,14.63
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2003,14.48
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2004,14.54
-Georgia,Microgrammes per cubic metre,GEO,Georgia,2005,14.70
+Georgia,Microgrammes per cubic metre,GEO,Georgia,2005,14.7
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2006,14.77
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2007,14.95
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2008,15.35
@@ -1822,7 +1822,7 @@ Georgia,Microgrammes per cubic metre,GEO,Georgia,2013,21.69
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2014,20.44
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2015,19.84
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2016,18.77
-Georgia,Microgrammes per cubic metre,GEO,Georgia,2017,17.90
+Georgia,Microgrammes per cubic metre,GEO,Georgia,2017,17.9
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2018,17.73
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2019,16.86
 Georgia,Microgrammes per cubic metre,GEO,Georgia,2020,16.21
@@ -1838,22 +1838,22 @@ Germany,Microgrammes per cubic metre,DEU,Germany,2008,15.11
 Germany,Microgrammes per cubic metre,DEU,Germany,2009,15.22
 Germany,Microgrammes per cubic metre,DEU,Germany,2010,16.18
 Germany,Microgrammes per cubic metre,DEU,Germany,2011,15.71
-Germany,Microgrammes per cubic metre,DEU,Germany,2012,13.90
+Germany,Microgrammes per cubic metre,DEU,Germany,2012,13.9
 Germany,Microgrammes per cubic metre,DEU,Germany,2013,13.65
 Germany,Microgrammes per cubic metre,DEU,Germany,2014,12.28
 Germany,Microgrammes per cubic metre,DEU,Germany,2015,12.82
 Germany,Microgrammes per cubic metre,DEU,Germany,2016,11.78
-Germany,Microgrammes per cubic metre,DEU,Germany,2017,11.90
+Germany,Microgrammes per cubic metre,DEU,Germany,2017,11.9
 Germany,Microgrammes per cubic metre,DEU,Germany,2018,11.66
 Germany,Microgrammes per cubic metre,DEU,Germany,2019,10.65
-Germany,Microgrammes per cubic metre,DEU,Germany,2020,10.30
-Croatia,Microgrammes per cubic metre,HRV,Croatia,2000,22.20
+Germany,Microgrammes per cubic metre,DEU,Germany,2020,10.3
+Croatia,Microgrammes per cubic metre,HRV,Croatia,2000,22.2
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2001,21.96
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2002,25.23
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2003,26.88
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2004,23.09
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2005,24.29
-Croatia,Microgrammes per cubic metre,HRV,Croatia,2006,25.50
+Croatia,Microgrammes per cubic metre,HRV,Croatia,2006,25.5
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2007,20.23
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2008,20.11
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2009,20.94
@@ -1864,7 +1864,7 @@ Croatia,Microgrammes per cubic metre,HRV,Croatia,2013,19.86
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2014,19.46
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2015,19.78
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2016,17.86
-Croatia,Microgrammes per cubic metre,HRV,Croatia,2017,18.40
+Croatia,Microgrammes per cubic metre,HRV,Croatia,2017,18.4
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2018,19.61
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2019,15.62
 Croatia,Microgrammes per cubic metre,HRV,Croatia,2020,15.82
@@ -1872,7 +1872,7 @@ Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2000,7.23
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2001,7.53
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2002,7.46
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2003,7.73
-Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2004,6.80
+Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2004,6.8
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2005,6.47
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2006,6.86
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2007,6.21
@@ -1881,13 +1881,13 @@ Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2009,6.05
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2010,5.86
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2011,5.91
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2012,5.62
-Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2013,6.20
+Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2013,6.2
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2014,6.76
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2015,6.23
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2016,6.34
-Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2017,7.20
+Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2017,7.2
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2018,7.05
-Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2019,6.80
+Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2019,6.8
 Faroe Islands,Microgrammes per cubic metre,FRO,Faroe Islands,2020,6.52
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2000,22.88
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2001,21.08
@@ -1909,17 +1909,17 @@ Latvia,Microgrammes per cubic metre,LVA,Latvia,2016,12.89
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2017,11.92
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2018,14.55
 Latvia,Microgrammes per cubic metre,LVA,Latvia,2019,12.79
-Latvia,Microgrammes per cubic metre,LVA,Latvia,2020,11.80
+Latvia,Microgrammes per cubic metre,LVA,Latvia,2020,11.8
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2000,22.23
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2001,21.05
-Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2002,22.00
+Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2002,22
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2003,20.98
-Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2004,21.90
+Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2004,21.9
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2005,21.97
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2006,23.98
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2007,21.84
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2008,21.29
-Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2009,21.10
+Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2009,21.1
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2010,17.14
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2011,16.18
 Malaysia,Microgrammes per cubic metre,MYS,Malaysia,2012,17.51
@@ -1936,7 +1936,7 @@ Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2001,62.84
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2002,58.02
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2003,77.75
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2004,70.92
-Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2005,72.60
+Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2005,72.6
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2006,65.64
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2007,69.04
 Bahrain,Microgrammes per cubic metre,BHR,Bahrain,2008,75.64
@@ -1958,11 +1958,11 @@ Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2002,9.54
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2003,10.56
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2004,8.41
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2005,8.52
-Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2006,8.90
+Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2006,8.9
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2007,8.69
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2008,7.83
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2009,7.59
-Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2010,7.80
+Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2010,7.8
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2011,7.77
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2012,7.63
 Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2013,7.61
@@ -1976,11 +1976,11 @@ Isle of Man,Microgrammes per cubic metre,IMN,Isle of Man,2020,8.57
 Estonia,Microgrammes per cubic metre,EST,Estonia,2000,11.49
 Estonia,Microgrammes per cubic metre,EST,Estonia,2001,10.99
 Estonia,Microgrammes per cubic metre,EST,Estonia,2002,12.25
-Estonia,Microgrammes per cubic metre,EST,Estonia,2003,10.40
+Estonia,Microgrammes per cubic metre,EST,Estonia,2003,10.4
 Estonia,Microgrammes per cubic metre,EST,Estonia,2004,9.58
 Estonia,Microgrammes per cubic metre,EST,Estonia,2005,9.37
 Estonia,Microgrammes per cubic metre,EST,Estonia,2006,9.27
-Estonia,Microgrammes per cubic metre,EST,Estonia,2007,8.20
+Estonia,Microgrammes per cubic metre,EST,Estonia,2007,8.2
 Estonia,Microgrammes per cubic metre,EST,Estonia,2008,8.05
 Estonia,Microgrammes per cubic metre,EST,Estonia,2009,8.12
 Estonia,Microgrammes per cubic metre,EST,Estonia,2010,8.91
@@ -1989,7 +1989,7 @@ Estonia,Microgrammes per cubic metre,EST,Estonia,2012,7.84
 Estonia,Microgrammes per cubic metre,EST,Estonia,2013,7.94
 Estonia,Microgrammes per cubic metre,EST,Estonia,2014,8.59
 Estonia,Microgrammes per cubic metre,EST,Estonia,2015,7.09
-Estonia,Microgrammes per cubic metre,EST,Estonia,2016,6.80
+Estonia,Microgrammes per cubic metre,EST,Estonia,2016,6.8
 Estonia,Microgrammes per cubic metre,EST,Estonia,2017,6.09
 Estonia,Microgrammes per cubic metre,EST,Estonia,2018,7.72
 Estonia,Microgrammes per cubic metre,EST,Estonia,2019,6.81
@@ -2021,12 +2021,12 @@ Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2002,27.24
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2003,23.05
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2004,21.74
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2005,20.95
-Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2006,19.60
+Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2006,19.6
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2007,18.29
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2008,17.31
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2009,18.03
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2010,18.84
-Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2011,18.50
+Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2011,18.5
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2012,17.75
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2013,17.98
 Ukraine,Microgrammes per cubic metre,UKR,Ukraine,2014,17.57
@@ -2042,18 +2042,18 @@ Belgium,Microgrammes per cubic metre,BEL,Belgium,2002,17.83
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2003,20.11
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2004,17.79
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2005,17.29
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2006,19.10
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2007,17.10
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2006,19.1
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2007,17.1
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2008,16.31
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2009,16.57
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2010,16.80
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2011,16.20
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2010,16.8
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2011,16.2
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2012,15.05
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2013,14.22
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2014,12.77
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2015,13.20
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2015,13.2
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2016,12.26
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2017,12.63
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2018,12.35
-Belgium,Microgrammes per cubic metre,BEL,Belgium,2019,11.10
+Belgium,Microgrammes per cubic metre,BEL,Belgium,2019,11.1
 Belgium,Microgrammes per cubic metre,BEL,Belgium,2020,11.09

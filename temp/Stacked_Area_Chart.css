@@ -1,0 +1,86 @@
+/* General Chart Styling */
+#visualization2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 450px;
+  }
+  .vis2-visualization-box{
+    border: 2px dashed #cccccc; /* Dashed border to indicate placeholder */
+    background-color: rgba(230, 230, 230, 0.5); /* Light gray background for visibility */
+  }
+  #vis2-buttons {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 30px;
+    text-align: left;
+  }
+  
+  #vis2-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  #vis2-buttons #vis2-germany{
+    background-color: red;
+  }
+
+  #vis2-buttons #vis2-france{
+    background-color: black;
+  }
+
+  #vis2-buttons #vis2-uk{
+    background-color: darkblue;
+  }
+  
+  #vis2-buttons button.active {
+    transform: scale(1.15); /* Larger scale */
+    filter: brightness(1.3); /* Brightened */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Shadow for emphasis */
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  #vis2-buttons button:hover {
+    transform: scale(1.05); /* Slight scale up on hover */
+    filter: brightness(1.1); /* Slight brightening */
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+  
+  
+  #vis2-box{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #vis2-chart {
+    width: 800px;
+    height: 500px;
+  }
+  
+  #vis2-chart-info {
+    margin-top: 10px;
+    width: 550px;
+    height: 330px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+
+  #vis2-chart-info p{
+    text-align: justify;
+  }
+  
+  .vis2_tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    pointer-events: none;
+    visibility: hidden;
+    text-align: left;
+  }
+  

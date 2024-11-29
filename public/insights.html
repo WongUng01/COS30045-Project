@@ -8,14 +8,23 @@
     <title>Insights</title>
     <link rel="stylesheet" href="../public/css/index.css">
     <link rel="stylesheet" href="../public/css/insight.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/europeanpm.js" defer></script>
+    <script src="js/Stacked_Area_Chart.js" defer></script>
+    <script src="js/VF_LineChart_Malaysia.js" defer></script>
+    <script src="js/scatterplot.js" defer></script>
+    <script src="js/scatterplot1.js" defer></script>
+    <script src="js/MalaysiaMixed.js" defer></script>
+    <link rel="stylesheet" href="../public/css/scatterplot.css">
 
 </head>
 
 <body class="insight-page">
     <header>
-        <div class="logo">
+        <div class="index-logo">
             <a href="index.html">
                 <img src="PIC/logo.jpg" alt="Logo" style="height: 40px;">
+                <p>Home</p>
             </a>
         </div>
         <nav>
@@ -28,33 +37,191 @@
 
     <main>
         <section class="content">
-            <div class="page-title">
-                <h1>Air Quality Insights</h1>
-            </div>
-            
-            <p>Discover the key insights gathered from air quality data, including the health impacts, preventative measures, and ways to improve air quality in affected areas.</p>
 
-            <!-- Blank Containers for Visualizations -->
-            <div class="visualization-container">
-                <h2>Visualization 1</h2>
-                <div id="visualization1" class="visualization-box"></div>
-            </div>
+            <h1 class="page-title">Understanding European Air Quality Trends and the Role of PM2.5</h1>
 
-            <div class="visualization-container">
-                <h2>Visualization 2</h2>
-                <div id="visualization2" class="visualization-box"></div>
-            </div>
+            <p class="transition_word">
+                Most <b>European countries</b> are recognized as <i>developed nations</i>, characterized by advanced economies and well-established infrastructure. Over the past two decades, 
+                <b>air quality improvement</b> has been a key focus in Europe, with <b>PM2.5</b> serving as a <i>critical indicator</i> of pollution levels and public health risks. 
+                <b>PM2.5 concentrations</b> directly influence policymaking, as governments aim to <i>reduce emissions</i> and <i>improve quality of life</i> for their citizens. 
+                The following visualizations delve into how European countries have managed <b>PM2.5 levels over time</b>, offering valuable lessons for global efforts in tackling air pollution.
+            </p>
 
+            <br>
+            <br>
+            <!-- Visualization 1: European PM2.5 Trends -->
             <div class="visualization-container">
-                <h2>Visualization 3</h2>
-                <div id="visualization3" class="visualization-box"></div>
+                <h2>Tracking European PM2.5 Trends (2000–2020): Regional and National Perspectives</h2>
+                <div id="visualization1" class="vis-visualization-box">
+                    <div id="vis1-box">
+                        <aside>
+                            <h2>Tracking European PM2.5 Trends</h2>
+                            <p>
+                                This chart visualizes the trends in <b>PM2.5 concentrations (µg/m³)</b> across five European countries—
+                                <b>Norway</b>, <b>France</b>, <b>United Kingdom</b>, <b>Germany</b>, and <b>Spain</b>—from 
+                                <i>2000 to 2020</i>. The regional <b>average</b> is also plotted, offering a benchmark for understanding 
+                                broader <i>European air quality improvements</i> during this period. Notably, all countries display a 
+                                <i>consistent decline</i> in <b>PM2.5 levels</b>, reflecting successful <i>air quality policies</i> and 
+                                <i>cleaner energy transitions</i>.
+                            </p>
+                            <p>
+                                <b>Norway</b> consistently exhibits the <i>lowest PM2.5 levels</i>, highlighting its 
+                                <b>strong environmental policies</b>, while <b>Germany</b> and <b>Spain</b> initially show higher levels, 
+                                though both experience <i>significant reductions</i>. The <b>United Kingdom</b>, in particular, sees a 
+                                <i>sharp decline after 2010</i>, aligning with <b>progressive policies</b> aimed at reducing 
+                                <b>industrial emissions</b>. These trends underscore the collective success of <b>European initiatives</b> 
+                                in improving <b>public health</b> and addressing <b>pollution challenges</b>.
+                            </p>
+                        </aside>
+                        <!-- Placeholder for the D3.js chart -->
+                        <div id="pm25-chart"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Visualization 2 -->
+            <div class="visualization-container">
+                <h2>Trends in Renewable and Fossil Fuel Energy Consumption Across Selected Countries (2000-2020)</h2>
+                <div id="visualization2" class="vis-visualization-box">
+                    <div id="vis2-buttons">
+                        <button id="vis2-germany">Germany</button>
+                        <button id="vis2-france">France</button>
+                        <button id="vis2-uk">United Kingdom</button>
+                    </div>
+                    <div id="vis2-box">
+                        <svg id="vis2-chart"></svg>
+                        <div id="vis2-chart-info"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Visualization 3 -->
+            <h2 id="visualization3-title">Scatter Plot Chart: Economic and Health Indicators (2000 - 2020)</h2>
+            <div id="visualization3" class="visualization-box3">
+                <div class="content-left">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2><u>Investigating the Effects of Air Pollution on Economic Prosperity and Health</u></h2>
+                    <p>
+                        A multifaceted relationship exists between <b>economic performance</b>, <b>health outcomes</b>, 
+                        and <b>air quality</b>, as evidenced by global trends. 
+                        Rising levels of <b>PM2.5 exposure</b> raise substantial concerns regarding the 
+                        <i>long-term effects of air pollution</i> on public health as countries experience increases in 
+                        <i>life expectancy</i>. 
+                        In the same vein, although numerous countries exhibit an increase in <b>GDP per capita</b>, 
+                        this economic advancement frequently coincides with elevated <b>environmental degradation</b> and 
+                        <b>health hazards</b> as a result of <i>pollution</i>. 
+                        The necessity of a more profound comprehension of the trade-offs between <b>environmental sustainability</b> 
+                        and <b>development</b> is underscored by these dual challenges.
+                    </p>
+
+                    <p>
+                        The data underscores the necessity of taking action to reduce <b>air pollution</b> and its cascading effects. 
+                        Countries are required to invest in <b>renewable energy solutions</b>, promote 
+                        <b>sustainable economic practices</b>, and implement <b>pure air policies</b>. 
+                        In order to guarantee a <b>more prosperous and healthier future</b>, it is imperative to maintain a balance between 
+                        <b>environmental protection</b> and <b>economic prosperity</b>. 
+                        The costs of inaction—both in terms of <i>health</i> and <i>economic stability</i>
+                        —will continue to increase if these interconnected issues are not addressed.
+                    </p>
+                </div>
+                <div class="chart-container">
+                    <div class="button-container">
+                        <button onclick="showVisualization('life')">Life Expectancy</button>
+                        <button onclick="showVisualization('gdp')">GDP</button>
+                    </div>
+                    <br>
+                    <div id="vis_3_controls" class="slider-container">
+                        <label for="vis_3_year_slider">Select Year:</label>
+                        <input type="range" id="vis_3_year_slider" min="2000" max="2020" step="1" value="2020">
+                        <span id="vis_3_selected_year">2020</span>
+                    </div>
+                    <div id="lifeExpectancyPlot">
+                        <div id="vis_3_chart"></div>
+                    </div>
+                    <div id="gdpPlot">
+                        <div id="vis_4_chart"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <h1 class="page-title">What Have We Learned So Far?</h1>
+
+            <p class="transition_word">
+                Through the <b>first three visualizations</b>, we observe a strong correlation between <i>reduced PM2.5 levels</i> and <i>improved health and economic indicators</i> in Europe. 
+                This demonstrates the <b>tangible benefits</b> of prioritizing <i>air quality</i> in national policies. Countries with <b>lower PM2.5 exposure</b>, like <i>Norway</i> and <i>Germany</i>, 
+                tend to experience <i>better life expectancy</i>, <i>lower disease incidence</i>, and <i>stable economic growth</i>. These findings provide a <b>benchmark</b> for <i>developing nations</i> striving to balance <i>economic development</i> and <i>environmental health</i>.
+            </p>
+
+            <p class="transition_word">
+                Now, shifting our focus to <b>Malaysia</b>, we explore the country’s <i>current trends</i> and <i>challenges</i> in addressing <b>PM2.5 pollution</b>. How does Malaysia’s trajectory compare to Europe’s progress? 
+                And what opportunities exist for <i>sustainable growth</i>? Let’s dive into the data.
+            </p>
+
+            <br>
+            <br>
+            <!-- Visualization 4 -->
+            <div class="visualization-container">
+                <h2>Analyzing PM2.5 Trends, Health Impacts, and Energy-Emission Dynamics in Malaysia</h2>
+                <div id="visualization4" class="vis-visualization-box">
+                    <div id="vis4-buttons">
+                        <button id="vis4-lineTrend">Trend Analysis</button>
+                        <button id="vis4-healthMetrics">Health Metrics</button>
+                        <button id="vis4-EandC">Emissions and Consumption</button>
+                    </div>
+                    <div id="vis4-box">
+                        <svg id="vis4-chart"></svg>
+                        <div id="vis4-chart-info"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Visualization 5 -->
+            <div class="visualization-container">
+                <h2>Overall Malaysian Trends</h2>
+                <div id="visualization5" class="vis-visualization-box">
+                    <div id="Malaysia-container">
+                        <aside id = Malaysia-Desc>
+                            <h2><u>Balancing Economic Growth and Environmental Sustainability in Malaysia</u></h2>
+                            <p>
+                                <b>Malaysia’s trends</b> reveal a nation striving for <i>economic growth</i> while grappling with <b>environmental</b> and <b>health challenges</b>. 
+                                While <i>life expectancy</i> has steadily increased, and the <i>incidence of tuberculosis</i> has declined, the persistent levels of <b>PM2.5 exposure</b> raise concerns about <i>air quality</i> and its long-term health impacts. 
+                                Similarly, the growth in <b>GDP</b> and <b>GDP per capita</b> reflects economic progress, but it is closely tied to rising <b>CO2 emissions</b> from <i>transport</i>, 
+                                <i>industrial combustion</i>, and <i>industrial processes</i>. This dependency on <b>fossil fuels</b>, evident in both high consumption and limited <i>renewable energy</i> uptake, 
+                                underscores the need for a more aggressive shift toward <i>sustainable energy solutions</i>.
+                            </p>
+
+                            <p>
+                                The data highlights the delicate balance between <i>development</i> and <b>environmental sustainability</b>. Malaysia must prioritize <b>cleaner energy policies</b>, 
+                                strengthen <i>air quality regulations</i>, and promote <b>renewable energy</b> to mitigate <i>climate</i> and <i>health risks</i>. Failing to address these challenges could hinder the nation’s long-term progress, 
+                                as the <b>environmental costs</b> of <i>economic growth</i> continue to rise. A holistic approach that integrates <i>environmental health</i> into <i>economic</i> and <i>energy strategies</i> will be essential for ensuring a <b>sustainable</b> and <b>prosperous future</b>.
+                            </p>
+
+                        </aside>
+
+                        <div id="Chart-Container">
+                            <div id="MalaysiaLineChart"></div>
+                            <div id="Chart-Legend"></div>
+                            <div id="MalaysiaLineChart_Tooltip"></div>
+                        </div>
+                        
+                    </div>
+                    <div id="legend"></div>
+                </div>
             </div>
 
             <!-- Add more visualization containers as needed -->
         </section>
     </main>
-    <br>
-    <br>
+    <footer class="insight_footer">© 2024 Data Visualization Project. All rights reserved.</footer>
 </body>
-<footer>© 2024 Data Visualization Project. All rights reserved.</footer>
 </html>
