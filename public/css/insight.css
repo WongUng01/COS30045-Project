@@ -218,6 +218,17 @@ svg {
 ------------------------------------ Visualisation Chart 3 Scatter Plot Chart ------------------------------------
 
 */
+#visualization3 {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 450px;
+}
+
+#vis3-box{
+  display: flex;
+  justify-content: space-around;
+}
+
 #visualization3-title {
   text-align: center;
   font-size: 24px; /* Adjust font size as needed */
@@ -240,12 +251,13 @@ svg {
 }
 
 .content-left {
-  flex: 1;
+  width: 40%;
   padding-right: 20px; /* Spacing between content and chart */
+  height: 400px;
 }
 
 .chart-container {
-  flex: 2;
+  width: 50%;
   display: flex;
   flex-direction: column; /* Stack slider and chart vertically */
   align-items: center; /* Center content horizontally */
@@ -275,6 +287,7 @@ svg {
 }
 
 .button-container {
+  padding-top: 10px;
   display: flex;
   gap: 10px; /* Spacing between buttons */
 }
@@ -355,6 +368,7 @@ svg {
   width: 800px;
   height:400px;
 }
+
 
 #vis4-chart-info {
   margin-top: 10px;

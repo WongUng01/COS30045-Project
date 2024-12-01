@@ -101,52 +101,52 @@
 
             <!-- Visualization 3 -->
             <h2 id="visualization3-title">Scatter Plot Chart: Economic and Health Indicators (2000 - 2020)</h2>
-            <div id="visualization3" class="visualization-box3">
-                <div class="content-left">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h2><u>Investigating the Effects of Air Pollution on Economic Prosperity and Health</u></h2>
-                    <p>
-                        A multifaceted relationship exists between <b>economic performance</b>, <b>health outcomes</b>, 
-                        and <b>air quality</b>, as evidenced by global trends. 
-                        Rising levels of <b>PM2.5 exposure</b> raise substantial concerns regarding the 
-                        <i>long-term effects of air pollution</i> on public health as countries experience increases in 
-                        <i>life expectancy</i>. 
-                        In the same vein, although numerous countries exhibit an increase in <b>GDP per capita</b>, 
-                        this economic advancement frequently coincides with elevated <b>environmental degradation</b> and 
-                        <b>health hazards</b> as a result of <i>pollution</i>. 
-                        The necessity of a more profound comprehension of the trade-offs between <b>environmental sustainability</b> 
-                        and <b>development</b> is underscored by these dual challenges.
-                    </p>
+            <div id="visualization3" class="vis-visualization-box">
+                <div id="vis3-box">
+                    <div class="content-left">
+                        <br>
 
-                    <p>
-                        The data underscores the necessity of taking action to reduce <b>air pollution</b> and its cascading effects. 
-                        Countries are required to invest in <b>renewable energy solutions</b>, promote 
-                        <b>sustainable economic practices</b>, and implement <b>pure air policies</b>. 
-                        In order to guarantee a <b>more prosperous and healthier future</b>, it is imperative to maintain a balance between 
-                        <b>environmental protection</b> and <b>economic prosperity</b>. 
-                        The costs of inaction—both in terms of <i>health</i> and <i>economic stability</i>
-                        —will continue to increase if these interconnected issues are not addressed.
-                    </p>
-                </div>
-                <div class="chart-container">
-                    <div class="button-container">
-                        <button onclick="showVisualization('life')">Life Expectancy</button>
-                        <button onclick="showVisualization('gdp')">GDP</button>
+                        <h2><u>Investigating the Effects of Air Pollution on Economic Prosperity and Health</u></h2>
+                        <p>
+                            A multifaceted relationship exists between <b>economic performance</b>, <b>health outcomes</b>, 
+                            and <b>air quality</b>, as evidenced by global trends. 
+                            Rising levels of <b>PM2.5 exposure</b> raise substantial concerns regarding the 
+                            <i>long-term effects of air pollution</i> on public health as countries experience increases in 
+                            <i>life expectancy</i>. 
+                            In the same vein, although numerous countries exhibit an increase in <b>GDP per capita</b>, 
+                            this economic advancement frequently coincides with elevated <b>environmental degradation</b> and 
+                            <b>health hazards</b> as a result of <i>pollution</i>. 
+                            The necessity of a more profound comprehension of the trade-offs between <b>environmental sustainability</b> 
+                            and <b>development</b> is underscored by these dual challenges.
+                        </p>
+
+                        <p>
+                            The data underscores the necessity of taking action to reduce <b>air pollution</b> and its cascading effects. 
+                            Countries are required to invest in <b>renewable energy solutions</b>, promote 
+                            <b>sustainable economic practices</b>, and implement <b>pure air policies</b>. 
+                            In order to guarantee a <b>more prosperous and healthier future</b>, it is imperative to maintain a balance between 
+                            <b>environmental protection</b> and <b>economic prosperity</b>. 
+                            The costs of inaction—both in terms of <i>health</i> and <i>economic stability</i>
+                            —will continue to increase if these interconnected issues are not addressed.
+                        </p>
                     </div>
-                    <br>
-                    <div id="vis_3_controls" class="slider-container">
-                        <label for="vis_3_year_slider">Select Year:</label>
-                        <input type="range" id="vis_3_year_slider" min="2000" max="2020" step="1" value="2020">
-                        <span id="vis_3_selected_year">2020</span>
-                    </div>
-                    <div id="lifeExpectancyPlot">
-                        <div id="vis_3_chart"></div>
-                    </div>
-                    <div id="gdpPlot">
-                        <div id="vis_4_chart"></div>
+                    <div class="chart-container">
+                        <div class="button-container">
+                            <button onclick="showVisualization('life')">Life Expectancy</button>
+                            <button onclick="showVisualization('gdp')">GDP</button>
+                        </div>
+                        <br>
+                        <div id="vis_3_controls" class="slider-container">
+                            <label for="vis_3_year_slider">Select Year:</label>
+                            <input type="range" id="vis_3_year_slider" min="2000" max="2020" step="1" value="2020">
+                            <span id="vis_3_selected_year">2020</span>
+                        </div>
+                        <div id="lifeExpectancyPlot">
+                            <div id="vis_3_chart"></div>
+                        </div>
+                        <div id="gdpPlot">
+                            <div id="vis_4_chart"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,10 @@
                         <button id="vis4-EandC">Emissions and Consumption</button>
                     </div>
                     <div id="vis4-box">
-                        <svg id="vis4-chart"></svg>
+                        <div id="vis4-chart-small_box">
+                            <div id="vis4-chart-slider"></div>
+                            <svg id="vis4-chart"></svg>
+                        </div>
                         <div id="vis4-chart-info"></div>
                     </div>
                 </div>

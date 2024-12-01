@@ -67,11 +67,13 @@ function updateDescription(chartType){
     d3.select("#vis4-chart-info").html(description)
 }
 
-
 // Function to load Trend Analysis
 function loadTrendAnalysis() {
   // Clear only the chart elements but not the axes groups
   vis4_svg.selectAll("*").remove();
+
+  // Remove the slider container (if it exists)
+  d3.select("#slider-container").remove();
   
   // Add axes groups with new class names
   const lineAnalysis_xAxisGroup = vis4_svg.append("g")
@@ -149,8 +151,8 @@ function loadTrendAnalysis() {
             const lastPoint = values[values.length - 1];
             vis4_svg.append("text")
                 .attr("class", "chart-element") // For easy removal during updates
-                .attr("x", xScale(lastPoint.TIME_PERIOD) + 5)
-                .attr("y", yScale(lastPoint.OBS_VALUE))
+                .attr("x", xScale(lastPoint.TIME_PERIOD) - 10)
+                .attr("y", yScale(lastPoint.OBS_VALUE) - 8)
                 .text(country)
                 .style("font-size", "12px")
                 .style("fill", getCountryColor(country));
@@ -200,10 +202,26 @@ function loadHealth() {
   // Clear existing elements
   vis4_svg.selectAll("*").remove();
 
+  // Create a container for the slider dynamically
+  d3.select("#vis4-chart-slider")
+    .append("div")
+    .attr("id", "slider-container")
+    .style("display", "flex")
+    .style("flex-direction", "row")
+    .style("justify-content", "center")
+    .style("align-items", "center")
+    .style("margin-top", "10px") // Adjust spacing above the slider
+    .style("margin-bottom", "10px") // Adjust spacing below the slider
+    .html(`
+      <label for="year-slider" style="margin-right: 10px; font-weight: bold;">Year:</label>
+      <input type="range" id="year-slider" min="2000" max="2020" value="2000" step="1" style="width: 300px;">
+      <span id="year-value" style="margin-left: 10px; font-weight: bold;">2000</span>
+    `);
+
   // Load both datasets
   Promise.all([
-      d3.csv("CSV/PM2.5_Exposure.csv"),
-      d3.csv("CSV/World_Bank_Data_Asia.csv"),
+    d3.csv("CSV/PM2.5_Exposure.csv"),
+    d3.csv("CSV/World_Bank_Data_Asia.csv"),
   ]).then(([pm25Data, worldBankData]) => {
     // Prepare PM2.5 data
     const pm25Filtered = pm25Data.map(d => ({
@@ -211,139 +229,171 @@ function loadHealth() {
       Year: +d.TIME_PERIOD,
       PM2_5: +d.OBS_VALUE,
     }));
-    
-      // Filter World Bank data for life expectancy and tuberculosis incidence
-      const lifeExpectancy = worldBankData.filter(d => d.SeriesCode === "SP.DYN.LE00.IN")
-          .map(d => ({
-              Country: d.CountryName,
-              Year: +d.Year,
-              LifeExpectancy: +d.Value,
-          }));
-      const tuberculosis = worldBankData.filter(d => d.SeriesCode === "SH.TBS.INCD")
-          .map(d => ({
-              Country: d.CountryName,
-              Year: +d.Year,
-              Tuberculosis: +d.Value,
-          }));
-console.log("PM2.5: ", pm25Filtered);
-console.log("life: ", lifeExpectancy);
-      // Combine data by matching Country and Year
-      const combinedData = pm25Filtered
-    .filter(pm => pm.Country === "Malaysia") // Filter for Malaysia
-    .map(pm => {
+
+    // Filter World Bank data for life expectancy and tuberculosis incidence
+    const lifeExpectancy = worldBankData
+      .filter(d => d.SeriesCode === "SP.DYN.LE00.IN")
+      .map(d => ({
+        Country: d.CountryName,
+        Year: +d.Year,
+        LifeExpectancy: +d.Value,
+      }));
+
+    const tuberculosis = worldBankData
+      .filter(d => d.SeriesCode === "SH.TBS.INCD")
+      .map(d => ({
+        Country: d.CountryName,
+        Year: +d.Year,
+        Tuberculosis: +d.Value,
+      }));
+
+    // Combine data by matching Country and Year
+    const combinedData = pm25Filtered
+      .filter(pm => pm.Country === "Malaysia") // Filter for Malaysia
+      .map(pm => {
         const life = lifeExpectancy.find(l => l.Country === pm.Country && l.Year === pm.Year);
         const tb = tuberculosis.find(t => t.Country === pm.Country && t.Year === pm.Year);
         return {
-            Country: pm.Country,
-            Year: pm.Year,
-            PM2_5: pm.PM2_5,
-            LifeExpectancy: life ? life.LifeExpectancy : null,
-            Tuberculosis: tb ? tb.Tuberculosis : null,
+          Country: pm.Country,
+          Year: pm.Year,
+          PM2_5: pm.PM2_5,
+          LifeExpectancy: life ? life.LifeExpectancy : null,
+          Tuberculosis: tb ? tb.Tuberculosis : null,
         };
-    })
-    .filter(d => d.LifeExpectancy && d.Tuberculosis); // Remove incomplete data
+      })
+      .filter(d => d.LifeExpectancy && d.Tuberculosis); // Remove incomplete data
 
-      console.log(combinedData);
+    // Define scales
+    const xScale = d3.scaleLinear()
+      .domain([d3.min(combinedData, d => d.PM2_5) - 2, d3.max(combinedData, d => d.PM2_5) + 2])
+      .range([0, vis4_width]);
 
-      // Define scales
-      const xScale = d3.scaleLinear()
-          .domain([d3.min(combinedData, d => d.PM2_5) - 2, d3.max(combinedData, d => d.PM2_5) + 2])
-          .range([0, vis4_width]);
+    const yLeftScale = d3.scaleLinear()
+      .domain([d3.min(combinedData, d => d.LifeExpectancy) - 1, d3.max(combinedData, d => d.LifeExpectancy) + 1])
+      .range([vis4_height, 0]);
 
-      const yLeftScale = d3.scaleLinear()
-          .domain([d3.min(combinedData, d => d.LifeExpectancy) - 1, d3.max(combinedData, d => d.LifeExpectancy) + 1])
-          .range([vis4_height, 0]);
+    const yRightScale = d3.scaleLinear()
+      .domain([0, d3.max(combinedData, d => d.Tuberculosis) + 3])
+      .range([vis4_height, 0]);
 
-      const yRightScale = d3.scaleLinear()
-          .domain([0, d3.max(combinedData, d => d.Tuberculosis) + 3])
-          .range([vis4_height, 0]);
+    // Add axes
+    vis4_svg.append("g")
+      .attr("class", "lineAnalysis-axis")
+      .call(d3.axisBottom(xScale))
+      .attr("transform", `translate(0, ${vis4_height})`);
 
-      // Add axes
-      vis4_svg.append("g")
-          .attr("class", "lineAnalysis-axis")
-          .call(d3.axisBottom(xScale))
-          .attr("transform", `translate(0, ${vis4_height})`);
+    vis4_svg.append("g")
+      .attr("class", "lineAnalysis-axis")
+      .call(d3.axisLeft(yLeftScale));
 
-      vis4_svg.append("g")
-          .attr("class", "lineAnalysis-axis")
-          .call(d3.axisLeft(yLeftScale));
+    vis4_svg.append("g")
+      .attr("class", "lineAnalysis-axis")
+      .call(d3.axisRight(yRightScale))
+      .attr("transform", `translate(${vis4_width}, 0)`);
 
-      vis4_svg.append("g")
-          .attr("class", "lineAnalysis-axis")
-          .call(d3.axisRight(yRightScale))
-          .attr("transform", `translate(${vis4_width}, 0)`);
+    // Add axis labels
+    vis4_svg.append("text")
+      .attr("class", "x-axis-label")
+      .attr("text-anchor", "middle")
+      .attr("x", vis4_width / 2)
+      .attr("y", vis4_height + vis4_margin.bottom - 5)
+      .text("PM2.5 Levels (µg/m³)");
 
-      // Add axis labels
-      vis4_svg.append("text")
-          .attr("class", "x-axis-label")
-          .attr("text-anchor", "middle")
-          .attr("x", vis4_width / 2)
-          .attr("y", vis4_height + vis4_margin.bottom - 5)
-          .text("PM2.5 Levels (µg/m³)");
+    vis4_svg.append("text")
+      .attr("class", "y-axis-label")
+      .attr("text-anchor", "middle")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -vis4_height / 2)
+      .attr("y", -vis4_margin.left + 15)
+      .text("Life Expectancy (Years)");
 
-      vis4_svg.append("text")
-          .attr("class", "y-axis-label")
-          .attr("text-anchor", "middle")
-          .attr("transform", "rotate(-90)")
-          .attr("x", -vis4_height / 2)
-          .attr("y", -vis4_margin.left + 15)
-          .text("Life Expectancy (Years)");
+    vis4_svg.append("text")
+      .attr("class", "y-axis-label")
+      .attr("text-anchor", "middle")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -vis4_height / 2)
+      .attr("y", vis4_width + vis4_margin.right - 15)
+      .text("Tuberculosis Incidence (per 100k)");
 
-      vis4_svg.append("text")
-          .attr("class", "y-axis-label")
-          .attr("text-anchor", "middle")
-          .attr("transform", "rotate(-90)")
-          .attr("x", -vis4_height / 2)
-          .attr("y", vis4_width + vis4_margin.right - 15)
-          .text("Tuberculosis Incidence (per 100k)");
+    // Add tooltip
+    const tooltip = d3.select("body").append("div")
+      .attr("class", "vis4_tooltip")
+      .style("visibility", "hidden");
 
-      // Plot scatter points
-      vis4_svg.selectAll(".scatter-life")
-          .data(combinedData)
-          .enter()
-          .append("circle")
-          .attr("cx", d => xScale(d.PM2_5))
-          .attr("cy", d => yLeftScale(d.LifeExpectancy))
-          .attr("r", 4)
-          .style("fill", scatterColors(0))
-          .style("opacity", 0.7);
+    // Add event listener to the slider
+    d3.select("#year-slider").on("input", function () {
+      const selectedYear = +this.value; // Get the selected year
+      d3.select("#year-value").text(selectedYear); // Update displayed year
 
-      vis4_svg.selectAll(".scatter-tb")
-          .data(combinedData)
-          .enter()
-          .append("circle")
-          .attr("cx", d => xScale(d.PM2_5))
-          .attr("cy", d => yRightScale(d.Tuberculosis))
-          .attr("r", 4)
-          .style("fill", scatterColors(1))
-          .style("opacity", 0.7);
-
-      // Add tooltip
-      const tooltip = d3.select("body").append("div")
-          .attr("class", "vis4_tooltip")
-          .style("visibility", "hidden");
-
+      // Dim other years' points
       vis4_svg.selectAll("circle")
-          .on("mouseover", (event, d) => {
-              tooltip.style("visibility", "visible")
-                  .html(`
-                      <strong>${d.Country}</strong><br>
-                      Year: ${d.Year}<br>
-                      PM2.5: ${d.PM2_5}<br>
-                      Life Expectancy: ${d.LifeExpectancy}<br>
-                      Tuberculosis Incidence: ${d.Tuberculosis}
-                  `);
-          })
-          .on("mousemove", (event) => {
-              tooltip.style("top", `${event.pageY - 50}px`)
-                  .style("left", `${event.pageX + 20}px`);
-          })
-          .on("mouseout", () => tooltip.style("visibility", "hidden"));
+        .style("opacity", 0.2); // Dim all points
+
+      // Highlight points for the selected year
+      vis4_svg.selectAll("circle")
+        .filter(d => d.Year === selectedYear)
+        .style("opacity", 1);
+    });
+
+    // Plot scatter points
+    vis4_svg.selectAll(".scatter-life")
+      .data(combinedData)
+      .enter()
+      .append("circle")
+      .attr("cx", d => xScale(d.PM2_5))
+      .attr("cy", d => yLeftScale(d.LifeExpectancy))
+      .attr("r", 4)
+      .style("fill", scatterColors(0))
+      .style("opacity", 0.7)
+      .on("mouseover", (event, d) => {
+        tooltip.style("visibility", "visible")
+          .html(`
+            <strong>${d.Country}</strong><br>
+            Year: ${d.Year}<br>
+            PM2.5: ${d.PM2_5}<br>
+            <span style="color: #00008B;">Life Expectancy:</strong></span> ${d.LifeExpectancy}<br>
+            <span style="color: #006400;"><strong>Tuberculosis Incidence:</strong></span> ${d.Tuberculosis}
+          `);
+      })
+      .on("mousemove", (event) => {
+        tooltip.style("top", `${event.pageY - 50}px`)
+          .style("left", `${event.pageX + 20}px`);
+      })
+      .on("mouseout", () => tooltip.style("visibility", "hidden"));
+
+    vis4_svg.selectAll(".scatter-tb")
+      .data(combinedData)
+      .enter()
+      .append("circle")
+      .attr("cx", d => xScale(d.PM2_5))
+      .attr("cy", d => yRightScale(d.Tuberculosis))
+      .attr("r", 4)
+      .style("fill", scatterColors(1))
+      .style("opacity", 0.7)
+      .on("mouseover", (event, d) => {
+        tooltip.style("visibility", "visible")
+          .html(`
+            <strong>${d.Country}</strong><br>
+            Year: ${d.Year}<br>
+            PM2.5: ${d.PM2_5}<br>
+            <span style="color: #00008B;">Life Expectancy:</strong></span> ${d.LifeExpectancy}<br>
+            <span style="color: #006400;"><strong>Tuberculosis Incidence:</strong></span> ${d.Tuberculosis}
+          `);
+      })
+      .on("mousemove", (event) => {
+        tooltip.style("top", `${event.pageY - 50}px`)
+          .style("left", `${event.pageX + 20}px`);
+      })
+      .on("mouseout", () => tooltip.style("visibility", "hidden"));
   });
 }
 
+
 function loadEandC() {
   vis4_svg.selectAll("*").remove();
+
+  // Remove the slider container (if it exists)
+  d3.select("#slider-container").remove();
 
   const xAxisGroup = vis4_svg.append("g")
       .attr("class", "axis-x")
@@ -360,6 +410,7 @@ function loadEandC() {
   // Create tooltip div
   const EandCtooltip = d3.select("body").append("div")
       .attr("class", "tooltip")
+      .style("width", "130px")
       .style("position", "absolute")
       .style("background-color", "white")
       .style("border", "1px solid #ccc")
@@ -546,14 +597,6 @@ function loadEandC() {
   });
 }
 
-
-
-
-
-
-
-
-
 function activateTypeButton(Type) {
     // Deactivate all buttons
     d3.selectAll("#vis4-buttons button").classed("active", false);
@@ -580,4 +623,4 @@ d3.select("#vis4-healthMetrics").on("click", () => activateTypeButton("healthMet
 d3.select("#vis4-EandC").on("click", () => activateTypeButton("EandC"));
 
 // Set default to lineTrend
-activateTypeButton("EandC");
+activateTypeButton("lineTrend");

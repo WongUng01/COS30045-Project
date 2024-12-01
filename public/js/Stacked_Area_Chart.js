@@ -187,7 +187,13 @@ d3.csv("CSV/World_Bank_Data.csv").then((data) => {
         const key = d.key === "renewable" ? "Renewable Energy Consumption" : "Fossil Fuel Consumption";
 
         vis2_tooltip
-        .html(`<strong>${key}</strong><br>Year: ${year}<br>Value: ${value.toFixed(2)}%`)
+        .html(`
+            <strong><u>${key}</u></strong><br>
+            <div style="text-align: left;"
+                Year: ${year}<br>
+                Value: ${value.toFixed(2)}%
+            </div>
+        `)
         .style("top", `${event.pageY - 50}px`)
         .style("left", `${event.pageX + 20}px`);
     })
@@ -355,7 +361,13 @@ function loadData2(countryCode) {
             const key = d.key === "renewable" ? "Renewable Energy Consumption" : "Fossil Fuel Consumption";
 
             vis2_tooltip
-            .html(`<strong>${key}</strong><br>Year: ${year}<br>Value: ${value.toFixed(2)}%`)
+            .html(`
+                <strong><u>${key}</u></strong><br>
+                <div style="text-align: left;"
+                    Year: ${year}<br>
+                    Value: ${value.toFixed(2)}%
+                </div>
+            `)
             .style("top", `${event.pageY - 50}px`)
             .style("left", `${event.pageX + 20}px`);
         })
@@ -420,6 +432,7 @@ const vis2_tooltip = d3
 .select("body")
 .append("div")
 .attr("class", "tooltip")
+.style("width", "130px")
 .style("visibility", "hidden")
 .style("position", "absolute")
 .style("background-color", "#fff")
@@ -491,8 +504,8 @@ function resetTooltipForUK() {
             <strong><u>${key}</u></strong><br>
             <div style="text-align: left;">
                 Year: ${year}<br>
-                Value: ${value.toFixed(2)} ${key === "Fossil Fuel Consumption" ? "%" : "Mt"}<br>
-                Fossil Fuel Consumption:${fossilFuelValue}%
+                Value: ${value.toFixed(2)} ${key === "Fossil Fuel Consumption" ? "%" : "Mt"}<br><br>
+                <strong>Fossil Fuel:</strong>${fossilFuelValue}%
             </div>
         `)
         .style("visibility", "visible")

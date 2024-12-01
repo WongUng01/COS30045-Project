@@ -1,4 +1,4 @@
-Country Name,CountryCode,Year,GDP per capita (constant LCU),GDP per capita growth (annual %),"Life expectancy at birth, total (years)",PM2.5 level
+CountryName,CountryCode,Year,GDP per capita (constant LCU),GDP per capita growth (annual %),"Life expectancy at birth, total (years)",PM2.5 level
 Albania,ALB,2000,233277.29,7.63,75.4,21.9
 Albania,ALB,2001,255005.66,9.314,75.64,20.85
 Albania,ALB,2002,267374.65,4.85,75.89,23.2

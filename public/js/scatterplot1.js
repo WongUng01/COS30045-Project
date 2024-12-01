@@ -1,7 +1,7 @@
 // Set the dimensions and margins of the graph
-const vis_4_margin = { top: 40, right: 30, bottom: 70, left: 100 },
-    vis_4_width = 900 - vis_4_margin.left - vis_4_margin.right,
-    vis_4_height = 600 - vis_4_margin.top - vis_4_margin.bottom;
+const vis_4_margin = { top: 40, right: 30, bottom: 70, left: 80 },
+    vis_4_width = 700 - vis_4_margin.left - vis_4_margin.right,
+    vis_4_height = 350 - vis_4_margin.top - vis_4_margin.bottom;
 
 // Append the SVG object to the container
 const vis_4_svg = d3
@@ -58,7 +58,7 @@ function vis_4_updateScatterPlot(filteredData) {
         .on("mouseover", (event, d) => {
             vis_4_tooltip.style("opacity", 1);
             vis_4_tooltip.html(
-                `<b>Country:</b> ${d.Country}<br><b>Year:</b> ${d.Year}<br>
+                `<b>Country:</b> ${d.CountryName}<br><b>Year:</b> ${d.Year}<br>
                 <b>PM2.5 Level:</b> ${d["PM2.5 level"]}<br>
                 <b>GDP:</b> ${d["GDP per capita (constant LCU)"]}`
             )
@@ -107,12 +107,12 @@ d3.csv("CSV/Economic_Health_PM2.5.csv").then(function (data) {
     // Define the scales with a logarithmic scale for the y-axis
     vis_4_x = d3
     .scaleLinear()
-    .domain([d3.min(filteredData, d => d["PM2.5 level"]) - 5, d3.max(filteredData, d => d["PM2.5 level"]) + 5])
+    .domain([d3.min(filteredData, d => d["PM2.5 level"]) - 5, d3.max(filteredData, d => d["PM2.5 level"])])
     .range([0, vis_4_width]);
 
     vis_4_y = d3
     .scaleLog()  // Use a logarithmic scale for GDP
-    .domain([d3.min(filteredData, d => d["GDP per capita (constant LCU)"]) + 1, // Avoid log(0)
+    .domain([d3.min(filteredData, d => d["GDP per capita (constant LCU)"]) + 10, // Avoid log(0)
             d3.max(filteredData, d => d["GDP per capita (constant LCU)"])])
     .range([vis_4_height, 0]);
 
@@ -141,7 +141,7 @@ d3.csv("CSV/Economic_Health_PM2.5.csv").then(function (data) {
         .on("mouseover", (event, d) => {
             vis_4_tooltip.style("opacity", 1);
             vis_4_tooltip.html(
-                `<b>Country:</b> ${d.Country}<br><b>Year:</b> ${d.Year}<br>
+                `<b>Country:</b> ${d.CountryName}<br><b>Year:</b> ${d.Year}<br>
                 <b>PM2.5 Level:</b> ${d["PM2.5 level"]}<br>
                 <b>GDP:</b> ${d["GDP per capita (constant LCU)"]}`
             )
@@ -176,7 +176,7 @@ d3.csv("CSV/Economic_Health_PM2.5.csv").then(function (data) {
     .call(d3.axisLeft(vis_4_y).ticks(5, "~s")) // Format ticks as numbers with suffixes (e.g., 1k, 1M)
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", -vis_4_height / 3)
+    .attr("x", -vis_4_height / 3 + 60)
     .attr("y", -50)
     .attr("fill", "black")
     .text("GDP per capita (constant LCU)")

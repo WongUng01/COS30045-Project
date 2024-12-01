@@ -161,7 +161,15 @@ function init() {
         // Add listener to year slider for updates
         document.getElementById("year-slider").addEventListener("input", function() {
             const selectedYear = this.value;
+            console.log(selectedYear);
             updateDetailsBox(countryISO, countryName, selectedYear);
+            g.selectAll("path")
+                .transition()
+                .duration(600)
+                .attr("fill", function(d) {
+                    const pollutionValue = pollutionData[`${d.properties.GID_0}-${selectedYear}`];
+                    return pollutionValue !== undefined ? colorScale(pollutionValue) : "#ccc";
+            });
         });
     }
     

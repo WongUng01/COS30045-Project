@@ -1,7 +1,7 @@
 // Set the dimensions and margins of the graph
 const vis_3_margin = { top: 40, right: 20, bottom: 70, left: 80 },
-    vis_3_width = 900 - vis_3_margin.left - vis_3_margin.right,
-    vis_3_height = 600 - vis_3_margin.top - vis_3_margin.bottom;
+    vis_3_width = 700 - vis_3_margin.left - vis_3_margin.right,
+    vis_3_height = 350 - vis_3_margin.top - vis_3_margin.bottom;
 
 // Append the SVG object to the container
 const vis_3_svg = d3
@@ -58,7 +58,7 @@ function vis_3_updateScatterPlot(filteredData) {
         .on("mouseover", (event, d) => {
             vis_3_tooltip.style("opacity", 1);
             vis_3_tooltip.html(
-                `<b>Country:</b> ${d.Country}<br><b>Year:</b> ${d.Year}<br>
+                `<b>Country:</b> ${d.CountryName}<br><b>Year:</b> ${d.Year}<br>
                 <b>PM2.5 Level:</b> ${d["PM2.5 level"]}<br>
                 <b>Life Expectancy:</b> ${d["Life expectancy at birth, total (years)"]}`
             )
@@ -108,13 +108,13 @@ d3.csv("CSV/Economic_Health_PM2.5.csv").then(function (data) {
     // Define the scales
     vis_3_x = d3
         .scaleLinear()
-        .domain([d3.min(filteredData, d => d["PM2.5 level"]) - 5, d3.max(filteredData, d => d["PM2.5 level"]) + 5])
+        .domain([d3.min(filteredData, d => d["PM2.5 level"]) - 5, d3.max(filteredData, d => d["PM2.5 level"])])
         .range([0, vis_3_width]);
 
     vis_3_y = d3
         .scaleLinear()
-        .domain([d3.min(filteredData, d => d["Life expectancy at birth, total (years)"]) - 5,
-                 d3.max(filteredData, d => d["Life expectancy at birth, total (years)"]) + 5])
+        .domain([d3.min(filteredData, d => d["Life expectancy at birth, total (years)"]) - 3,
+                 d3.max(filteredData, d => d["Life expectancy at birth, total (years)"]) + 3])
         .range([vis_3_height, 0]);
 
     // Set slider range based on available data
@@ -146,7 +146,7 @@ d3.csv("CSV/Economic_Health_PM2.5.csv").then(function (data) {
         .call(d3.axisLeft(vis_3_y))
         .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("x", -vis_3_height / 3)
+        .attr("x", -vis_3_height / 3 + 60)
         .attr("y", -50)
         .attr("fill", "black")
         .text("Life Expectancy at Birth (Years)")
